@@ -2,6 +2,8 @@
 
 This is a simple packet sniffer that captures packets from the network and displays the information in a human-readable format.
 
+[Lesson in course](https://codedeviate.github.io/aicollection/go-tools-packet-sniffer.html)
+
 ## Installation
 
 To install the required dependencies, run the following command:
