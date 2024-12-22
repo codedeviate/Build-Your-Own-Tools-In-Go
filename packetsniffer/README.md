@@ -6,7 +6,7 @@ This is a simple packet sniffer that captures packets from the network and displ
 
 ## Installation
 
-To install the required dependencies, run the following command:
+Setup the project and install the required dependencies, run the following command:
 
 ```bash
 make setup
