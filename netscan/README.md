@@ -1,4 +1,4 @@
-# Ping
+# Netscan
 
 This is a simple netscan tool that displays the network connections on a host.
 
@@ -25,10 +25,10 @@ make build
 To run the project, run the following command:
 
 ```bash
-make run HOSTNAME=<hostname> START_PORT=<start port> END_PORT=<end port>
+make run HOST=<host> START_PORT=<start port> END_PORT=<end port>
 ```
 
-Where `<hostname>` is the hostname to scan, `<start_port>` is the starting port number, and `<end_port>` is the ending port number.
+Where `<host>` is the hostname to scan, `<start_port>` is the starting port number, and `<end_port>` is the ending port number.
 
 ## Clean
 

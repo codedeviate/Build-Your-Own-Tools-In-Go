@@ -1,4 +1,4 @@
-# Ping
+# Netstat
 
 This is a simple netstat tool that displays the network connections on a host.
 
