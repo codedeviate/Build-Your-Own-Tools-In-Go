@@ -28,8 +28,8 @@ If there is no status icon, then the tool has not been started yet.
 - [x] [Whois](./whois) :green_apple:
 - [x] [Dig/nslookup](./dnslookup) :green_apple:
 - [ ] [Traceroute](./traceroute) :apple:
-- [ ] [Netstat](./netstat)
-- [ ] [Netscan](./netscan)
+- [x] [Netstat](./netstat) :apple:
+- [x] [Netscan](./netscan) :apple:
 
 ### Advanced Network Tools
 - [ ] [Port Scanner](./portscanner)
