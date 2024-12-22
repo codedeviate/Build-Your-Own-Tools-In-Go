@@ -14,7 +14,7 @@ The current status of each tool will show at the end of the tool name in the lis
 | :apple:       | Problems on macOS   |
 | :penguin:     | Working on Linux    |
 | :chicken:     | Problems on Linux   |
-| :windows:     | Working on Windows  |
+| :window:     | Working on Windows  |
 | :headstone:   | Problems on Windows |
 
 If the checkbox is ticked then the tools is working on atleast one platform.
