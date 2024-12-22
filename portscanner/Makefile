@@ -1,14 +1,15 @@
 # Makefile
 
 # Variables
-BINARY_NAME=packetsniffer
-INTERFACE=$(INTERFACE)
+BINARY_NAME=portscanner
+PROTOCOL=$(PROTOCOL)
+HOST=$(HOST)
+START_PORT=$(START_PORT)
+END_PORT=$(END_PORT)
 
 # Setup dependencies
 setup:
-	go mod init github.com/username/packetsniffer
-	go get github.com/google/gopacket
-	go get github.com/google/gopacket/pcap
+	go mod init github.com/username/portscanner
 	go mod tidy
 
 # Build the binary
@@ -17,7 +18,7 @@ build:
 
 # Run the application
 run: build
-	sudo ./$(BINARY_NAME) $(INTERFACE)
+	./$(BINARY_NAME) $(PROTOCOL) $(HOST) $(START_PORT) $(END_PORT)
 
 # Clean the build
 clean:
