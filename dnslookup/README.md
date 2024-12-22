@@ -25,7 +25,7 @@ make build
 To run the project, run the following command:
 
 ```bash
-make run HOST=<target HOST>
+make run HOST=<target host>
 ```
 
 Where `<target host>` is the hostname to query the DNS server for information.

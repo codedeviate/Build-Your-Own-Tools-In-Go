@@ -35,4 +35,5 @@ go.sum
 dnslookup/dnslookup
 packetsniffer/packetsniffer
 ping/ping
+traceroute/traceroute
 whois/whois

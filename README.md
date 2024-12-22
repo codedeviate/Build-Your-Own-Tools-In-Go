@@ -2,13 +2,32 @@
 
 This is the code for the tools in the course [Build You Own Tools In Go](https://codedeviate.github.io/aicollection/go-build-your-own-tools.html)
 
+Since this is a work in prograss, the tools are not complete yet. I will update the status of each tool as they are completed.
+
+The current status of each tool will show at the end of the tool name in the list below. The status icons are as follows:
+
+**Current status**
+
+| Status icon   | Description         |
+| ------------- | ------------------- |
+| :green_apple: | Working on macOS    |
+| :apple:       | Problems on macOS   |
+| :penguin:     | Working on Linux    |
+| :chicken:     | Problems on Linux   |
+| :windows:     | Working on Windows  |
+| :headstone:   | Problems on Windows |
+
+If the checkbox is ticked then the tools is working on atleast one platform.
+
+If there is no status icon, then the tool has not been started yet.
+
 ## Tools
 
 ### Basic Network Tools
-- [ ] [Ping](./ping)
-- [ ] [Whois](./whois)
-- [ ] [Dig/nslookup](./dignslookup)
-- [ ] [Traceroute](./traceroute)
+- [x] [Ping](./ping) :green_apple:
+- [x] [Whois](./whois) :green_apple:
+- [x] [Dig/nslookup](./dnslookup) :green_apple:
+- [ ] [Traceroute](./traceroute) :apple:
 - [ ] [Netstat](./netstat)
 - [ ] [Netscan](./netscan)
 
@@ -16,7 +35,7 @@ This is the code for the tools in the course [Build You Own Tools In Go](https:/
 - [ ] [Port Scanner](./portscanner)
 - [ ] [IP Geolocation](./ipgeolocation)
 - [ ] [Port Knocking](./portknocking)
-- [x] [Packet Sniffer](./packetsniffer)
+- [x] [Packet Sniffer](./packetsniffer) :green_apple:
 - [ ] [Proxy Server](./proxyserver)
 - [ ] [Port Forwarding](./portforwarding)
 - [ ] [Bandwidth Monitor](./bandwidthmonitor)
