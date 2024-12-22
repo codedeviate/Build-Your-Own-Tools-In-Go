@@ -39,3 +39,5 @@ To clean the project, run the following command:
 ```bash
 make clean
 ```
+
+Run `make setup` again before building the project.
