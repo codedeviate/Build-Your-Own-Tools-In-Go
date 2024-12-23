@@ -1,8 +1,8 @@
-# Web crawler
+# Web scraper
 
-This is a simple Web crawler tool that crawls a website and extracts links from the website.
+This is a simple Web scraper tool that scrapes a website and extracts links from the website.
 
-[Lesson in course](https://codedeviate.github.io/aicollection/go-tools-web-crawler.html)
+[Lesson in course](https://codedeviate.github.io/aicollection/go-tools-web-scraper.html)
 
 ## Installation
 

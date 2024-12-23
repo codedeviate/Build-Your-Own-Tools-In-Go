@@ -57,8 +57,8 @@ If there is no status icon, then the tool has not been started yet.
 - [x] [Telnet Server](./telnetserver) :green_apple:
 - [ ] [SSH Client](./sshclient) :apple:
 - [ ] [SSH Server](./sshserver) :apple:
-- [ ] [DNS Client](./dnsclient)
-- [ ] [DNS Server](./dnsserver)
+- [ ] [DNS Client](./dnsclient) :apple:
+- [ ] [DNS Server](./dnsserver) :apple:
 - [ ] [DHCP Client](./dhcpclient)
 - [ ] [DHCP Server](./dhcpserver)
 - [ ] [VPN Client](./vpnclient)

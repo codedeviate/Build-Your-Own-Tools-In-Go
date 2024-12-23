@@ -1,8 +1,8 @@
-# SMTP Server
+# SMTP CLient
 
-This is a simple SMTP Server tool that listens for SMTP requests on a port and displays the request information.
+This is a simple SMTP Client tool that sends an email to a recipient.
 
-[Lesson in course](https://codedeviate.github.io/aicollection/go-tools-smtp-server.html)
+[Lesson in course](https://codedeviate.github.io/aicollection/go-tools-smtp-client.html)
 
 ## Installation
 

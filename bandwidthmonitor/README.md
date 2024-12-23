@@ -2,7 +2,7 @@
 
 This is a simple Bandwidth monitor tool that monitors the bandwidth usage on a host.
 
-[Lesson in course](https://codedeviate.github.io/aicollection/go-tools-port-scanner.html)
+[Lesson in course](https://codedeviate.github.io/aicollection/go-tools-bandwidth-monitor.html)
 
 ## Installation
 
