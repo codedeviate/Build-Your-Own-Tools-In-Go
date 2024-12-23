@@ -1,15 +1,14 @@
 # Makefile
 
 # Variables
-BINARY_NAME=packetsniffer
-INTERFACE=$(INTERFACE)
+BINARY_NAME=httpsserver
+PORT=$(PORT)
 
 # Setup dependencies
 setup:
-	go mod init github.com/username/packetsniffer
-	go get github.com/google/gopacket
-	go get github.com/google/gopacket/pcap
+	go mod init github.com/username/httpsserver
 	go mod tidy
+	openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes
 
 # Build the binary
 build:
@@ -17,13 +16,15 @@ build:
 
 # Run the application
 run: build
-	sudo ./$(BINARY_NAME) $(INTERFACE)
+	./$(BINARY_NAME) $(PORT) cert.pem key.pem
 
 # Clean the build
 clean:
 	rm -f $(BINARY_NAME)
 	rm -f go.mod
 	rm -f go.sum
+	rm -f cert.pem
+	rm -f key.pem
 
 # Phony targets
 .PHONY: setup build run clean

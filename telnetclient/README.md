@@ -1,0 +1,41 @@
+# Telnet Client
+
+This is a simple Telnet client tool that connects to a Telnet server and sends commands.
+
+[Lesson in course](https://codedeviate.github.io/aicollection/go-tools-telnet-client.html)
+
+## Installation
+
+Setup the project and install the required dependencies, run the following command:
+
+```bash
+make setup
+```
+
+## Build
+
+To build the project, run the following command:
+
+```bash
+make build
+```
+
+## Run
+
+To run the project, run the following command:
+
+```bash
+make run ADDRESS=<address>
+```
+
+Where `<address>` is the address to connect to.
+
+## Clean
+
+To clean the project, run the following command:
+
+```bash
+make clean
+```
+
+Run `make setup` again before building the project.

@@ -32,31 +32,31 @@ If there is no status icon, then the tool has not been started yet.
 - [x] [Netscan](./netscan) :green_apple:
 
 ### Advanced Network Tools
-- [ ] [Port Scanner](./portscanner)
-- [ ] [IP Geolocation](./ipgeolocation)
-- [ ] [Port Knocking](./portknocking)
+- [x] [Port Scanner](./portscanner) :green_apple:
+- [x] [IP Geolocation](./ipgeolocation) :green_apple:
+- [x] [Port Knocking](./portknocking) :green_apple:
 - [x] [Packet Sniffer](./packetsniffer) :green_apple:
-- [ ] [Proxy Server](./proxyserver)
-- [ ] [Port Forwarding](./portforwarding)
-- [ ] [Bandwidth Monitor](./bandwidthmonitor)
-- [ ] [Web Crawler](./webcrawler)
-- [ ] [Web Scraper](./webscraper)
+- [x] [Proxy Server](./proxyserver) :green_apple:
+- [x] [Port Forwarding](./portforwarding) :green_apple:
+- [ ] [Bandwidth Monitor](./bandwidthmonitor) :apple:
+- [x] [Web Crawler](./webcrawler) :green_apple:
+- [x] [Web Scraper](./webscraper) :green_apple:
 
 ### Network Services
-- [ ] [HTTP Client](./httpclient)
-- [ ] [HTTP Server](./httpserver)
-- [ ] [HTTPS Client](./httpsclient)
-- [ ] [HTTPS Server](./httpsserver)
+- [x] [HTTP Client](./httpclient) :green_apple:
+- [x] [HTTP Server](./httpserver) :green_apple:
+- [x] [HTTPS Client](./httpsclient) :green_apple:
+- [x] [HTTPS Server](./httpsserver) :green_apple:
 - [ ] [FTP Client](./ftpclient)
-- [ ] [FTP Server](./ftpserver)
+- [x] [FTP Server](./ftpserver) :green_apple:
 - [ ] [FTPS Client](./ftpsclient)
-- [ ] [FTPS Server](./ftpsserver)
-- [ ] [SMTP Client](./smtpclient)
-- [ ] [SMTP Server](./smtpserver)
-- [ ] [Telnet Client](./telnetclient)
-- [ ] [Telnet Server](./telnetserver)
-- [ ] [SSH Client](./sshclient)
-- [ ] [SSH Server](./sshserver)
+- [ ] [FTPS Server](./ftpsserver) :apple:
+- [x] [SMTP Client](./smtpclient) :green_apple:
+- [x] [SMTP Server](./smtpserver) :green_apple:
+- [x] [Telnet Client](./telnetclient) :green_apple:
+- [x] [Telnet Server](./telnetserver) :green_apple:
+- [ ] [SSH Client](./sshclient) :apple:
+- [ ] [SSH Server](./sshserver) :apple:
 - [ ] [DNS Client](./dnsclient)
 - [ ] [DNS Server](./dnsserver)
 - [ ] [DHCP Client](./dhcpclient)

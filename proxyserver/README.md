@@ -1,0 +1,41 @@
+# Proxy server
+
+This is a simple Proxy server tool that forwards packets to another target.
+
+[Lesson in course](https://codedeviate.github.io/aicollection/go-tools-proxy-server.html)
+
+## Installation
+
+Setup the project and install the required dependencies, run the following command:
+
+```bash
+make setup
+```
+
+## Build
+
+To build the project, run the following command:
+
+```bash
+make build
+```
+
+## Run
+
+To run the project, run the following command:
+
+```bash
+make run LISTEN_PORT=<port> TARGET=<target>
+```
+
+Where `<port>` is the port to listen on and `<target>` is the target to forward packets to.
+
+## Clean
+
+To clean the project, run the following command:
+
+```bash
+make clean
+```
+
+Run `make setup` again before building the project.

@@ -1,14 +1,16 @@
 # Makefile
 
 # Variables
-BINARY_NAME=packetsniffer
-INTERFACE=$(INTERFACE)
+BINARY_NAME=sshclient
+USERNAME=$(USER)
+PASSW=$(PASSWORD)
+HOSTNAME=$(HOST)
+PORT_NUMBER=$(PORT)
+CMD=$(COMMAND)
 
 # Setup dependencies
 setup:
-	go mod init github.com/username/packetsniffer
-	go get github.com/google/gopacket
-	go get github.com/google/gopacket/pcap
+	go mod init github.com/username/sshclient
 	go mod tidy
 
 # Build the binary
@@ -17,7 +19,7 @@ build:
 
 # Run the application
 run: build
-	sudo ./$(BINARY_NAME) $(INTERFACE)
+	./$(BINARY_NAME) $(USERNAME) $(PASSW) $(HOSTNAME) $(PORT_NUMBER) "$(CMD)"
 
 # Clean the build
 clean:

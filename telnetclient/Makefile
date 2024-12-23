@@ -1,14 +1,12 @@
 # Makefile
 
 # Variables
-BINARY_NAME=packetsniffer
-INTERFACE=$(INTERFACE)
+BINARY_NAME=telnetclient
+ADDR=$(ADDRESS)
 
 # Setup dependencies
 setup:
-	go mod init github.com/username/packetsniffer
-	go get github.com/google/gopacket
-	go get github.com/google/gopacket/pcap
+	go mod init github.com/username/telnetclient
 	go mod tidy
 
 # Build the binary
@@ -17,7 +15,7 @@ build:
 
 # Run the application
 run: build
-	sudo ./$(BINARY_NAME) $(INTERFACE)
+	./$(BINARY_NAME) $(ADDR)
 
 # Clean the build
 clean:

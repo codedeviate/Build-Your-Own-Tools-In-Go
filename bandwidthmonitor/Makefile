@@ -1,12 +1,12 @@
 # Makefile
 
 # Variables
-BINARY_NAME=packetsniffer
+BINARY_NAME=bandwidthmonitor
 INTERFACE=$(INTERFACE)
 
 # Setup dependencies
 setup:
-	go mod init github.com/username/packetsniffer
+	go mod init github.com/username/bandwidthmonitor
 	go get github.com/google/gopacket
 	go get github.com/google/gopacket/pcap
 	go mod tidy

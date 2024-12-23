@@ -1,14 +1,13 @@
 # Makefile
 
 # Variables
-BINARY_NAME=packetsniffer
-INTERFACE=$(INTERFACE)
+BINARY_NAME=ftpserver
+PORT=$(PORT)
 
 # Setup dependencies
 setup:
-	go mod init github.com/username/packetsniffer
-	go get github.com/google/gopacket
-	go get github.com/google/gopacket/pcap
+	go mod init github.com/username/ftpserver
+	go get goftp.io/server/v2
 	go mod tidy
 
 # Build the binary
@@ -17,7 +16,7 @@ build:
 
 # Run the application
 run: build
-	sudo ./$(BINARY_NAME) $(INTERFACE)
+	./$(BINARY_NAME) $(PORT) "../dummydata"
 
 # Clean the build
 clean:

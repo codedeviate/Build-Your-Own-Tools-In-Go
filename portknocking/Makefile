@@ -1,14 +1,14 @@
 # Makefile
 
 # Variables
-BINARY_NAME=packetsniffer
-INTERFACE=$(INTERFACE)
-
+BINARY_NAME=portknocking
+HOST=$(HOSTNAME)
+DELAY=$(DELAYMS)
+PORT1=$(PORT_1)
+PORT2=$(PORT_2)
 # Setup dependencies
 setup:
-	go mod init github.com/username/packetsniffer
-	go get github.com/google/gopacket
-	go get github.com/google/gopacket/pcap
+	go mod init github.com/username/portknocking
 	go mod tidy
 
 # Build the binary
@@ -17,7 +17,7 @@ build:
 
 # Run the application
 run: build
-	sudo ./$(BINARY_NAME) $(INTERFACE)
+	./$(BINARY_NAME) $(HOST) $(DELAY) $(PORT1) $(PORT2)
 
 # Clean the build
 clean:
