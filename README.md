@@ -24,29 +24,29 @@ If there is no status icon, then the tool has not been started yet.
 ## Tools
 
 ### Basic Network Tools
-- [x] [Ping](./ping) :green_apple:
-- [x] [Whois](./whois) :green_apple:
-- [x] [Dig/nslookup](./dnslookup) :green_apple:
-- [ ] [Traceroute](./traceroute) :apple:
-- [x] [Netstat](./netstat) :green_apple:
-- [x] [Netscan](./netscan) :green_apple:
+- [x] [Ping](./ping) :penguin: :green_apple:
+- [x] [Whois](./whois) :penguin: :green_apple:
+- [x] [Dig/nslookup](./dnslookup) :penguin: :green_apple:
+- [ ] [Traceroute](./traceroute) :chicken: :apple:
+- [x] [Netstat](./netstat) :chicken: :green_apple:
+- [x] [Netscan](./netscan) :chicken: :green_apple:
 
 ### Advanced Network Tools
-- [x] [Port Scanner](./portscanner) :green_apple:
-- [x] [IP Geolocation](./ipgeolocation) :green_apple:
-- [x] [Port Knocking](./portknocking) :green_apple:
-- [x] [Packet Sniffer](./packetsniffer) :green_apple:
-- [x] [Proxy Server](./proxyserver) :green_apple:
-- [x] [Port Forwarding](./portforwarding) :green_apple:
-- [ ] [Bandwidth Monitor](./bandwidthmonitor) :apple:
-- [x] [Web Crawler](./webcrawler) :green_apple:
-- [x] [Web Scraper](./webscraper) :green_apple:
+- [x] [Port Scanner](./portscanner) :penguine: :green_apple:
+- [x] [IP Geolocation](./ipgeolocation) :penguine: :green_apple:
+- [x] [Port Knocking](./portknocking) :penguine: :green_apple:
+- [x] [Packet Sniffer](./packetsniffer) :chicken: :green_apple:
+- [x] [Proxy Server](./proxyserver) :chicken: :green_apple:
+- [x] [Port Forwarding](./portforwarding) :chicken: :green_apple:
+- [ ] [Bandwidth Monitor](./bandwidthmonitor) :chicken: :apple:
+- [x] [Web Crawler](./webcrawler) :chicken: :green_apple:
+- [x] [Web Scraper](./webscraper) :chicken: :green_apple:
 
 ### Network Services
-- [x] [HTTP Client](./httpclient) :green_apple:
-- [x] [HTTP Server](./httpserver) :green_apple:
-- [x] [HTTPS Client](./httpsclient) :green_apple:
-- [x] [HTTPS Server](./httpsserver) :green_apple:
+- [x] [HTTP Client](./httpclient) :penguine: :green_apple:
+- [x] [HTTP Server](./httpserver) :chicken: :green_apple:
+- [x] [HTTPS Client](./httpsclient) :penguine: :green_apple:
+- [x] [HTTPS Server](./httpsserver) :chicken: :green_apple:
 - [ ] [FTP Client](./ftpclient)
 - [x] [FTP Server](./ftpserver) :green_apple:
 - [ ] [FTPS Client](./ftpsclient)

@@ -26,7 +26,7 @@ clean:
 	rm -f go.sum
 
 complete: clean setup build
-	./$(BINARY_NAME) 127.0.0.1 1 1024
+	./$(BINARY_NAME) 127.0.0.1 1024 2048
 
 # Phony targets
 .PHONY: setup build run clean complete

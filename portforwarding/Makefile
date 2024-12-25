@@ -25,7 +25,7 @@ clean:
 	rm -f go.sum
 
 complete: clean setup build
-	./$(BINARY_NAME) 3526 www.google.com
+	./$(BINARY_NAME) 3526 www.google.com:80
 
 # Phony targets
 .PHONY: setup build run clean complete
