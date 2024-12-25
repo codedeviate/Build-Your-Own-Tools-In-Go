@@ -25,5 +25,8 @@ clean:
 	rm -f go.mod
 	rm -f go.sum
 
+complete: clean setup build
+	./$(BINARY_NAME) https://github.com/codedeviate/Build-Your-Own-Tools-In-Go/blob/master/README.md article
+
 # Phony targets
-.PHONY: setup build run clean
+.PHONY: setup build run clean complete

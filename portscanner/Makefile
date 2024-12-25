@@ -26,5 +26,8 @@ clean:
 	rm -f go.mod
 	rm -f go.sum
 
+complete: clean setup build
+	./$(BINARY_NAME) tcp scanme.nmap.org 1 1024
+
 # Phony targets
-.PHONY: setup build run clean
+.PHONY: setup build run clean complete

@@ -24,5 +24,8 @@ clean:
 	rm -f go.mod
 	rm -f go.sum
 
+complete: clean setup build
+	./$(BINARY_NAME) 12345 www.google.com
+
 # Phony targets
-.PHONY: setup build run clean
+.PHONY: setup build run clean complete

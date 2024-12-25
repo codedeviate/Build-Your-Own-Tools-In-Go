@@ -27,5 +27,8 @@ clean:
 	rm -f go.mod
 	rm -f go.sum
 
+complete: clean setup build
+	./$(BINARY_NAME) "\"\"" "\"\"" "127.0.0.1" "4567" "ls -alF"
+
 # Phony targets
-.PHONY: setup build run clean
+.PHONY: setup build run clean complete

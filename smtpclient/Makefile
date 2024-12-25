@@ -28,5 +28,8 @@ clean:
 	rm -f go.mod
 	rm -f go.sum
 
+complete: clean setup build
+	./$(BINARY_NAME) 127.0.0.1 23456 "tess.t@example.com" "person@example.com" "\"Test email\"" "\"This is a test email\""
+
 # Phony targets
-.PHONY: setup build run clean
+.PHONY: setup build run clean complete

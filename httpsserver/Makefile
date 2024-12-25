@@ -26,5 +26,8 @@ clean:
 	rm -f cert.pem
 	rm -f key.pem
 
+complete: clean setup build
+	./$(BINARY_NAME) 6789 cert.pem key.pem
+
 # Phony targets
-.PHONY: setup build run clean
+.PHONY: setup build run clean complete
