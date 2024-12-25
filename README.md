@@ -32,9 +32,9 @@ If there is no status icon, then the tool has not been started yet.
 - [x] [Netscan](./netscan) :chicken: :green_apple:
 
 ### Advanced Network Tools
-- [x] [Port Scanner](./portscanner) :penguine: :green_apple:
-- [x] [IP Geolocation](./ipgeolocation) :penguine: :green_apple:
-- [x] [Port Knocking](./portknocking) :penguine: :green_apple:
+- [x] [Port Scanner](./portscanner) :penguin: :green_apple:
+- [x] [IP Geolocation](./ipgeolocation) :penguin: :green_apple:
+- [x] [Port Knocking](./portknocking) :penguin: :green_apple:
 - [x] [Packet Sniffer](./packetsniffer) :chicken: :green_apple:
 - [x] [Proxy Server](./proxyserver) :chicken: :green_apple:
 - [x] [Port Forwarding](./portforwarding) :chicken: :green_apple:
@@ -43,9 +43,9 @@ If there is no status icon, then the tool has not been started yet.
 - [x] [Web Scraper](./webscraper) :chicken: :green_apple:
 
 ### Network Services
-- [x] [HTTP Client](./httpclient) :penguine: :green_apple:
+- [x] [HTTP Client](./httpclient) :penguin: :green_apple:
 - [x] [HTTP Server](./httpserver) :chicken: :green_apple:
-- [x] [HTTPS Client](./httpsclient) :penguine: :green_apple:
+- [x] [HTTPS Client](./httpsclient) :penguin: :green_apple:
 - [x] [HTTPS Server](./httpsserver) :chicken: :green_apple:
 - [ ] [FTP Client](./ftpclient)
 - [x] [FTP Server](./ftpserver) :green_apple:
