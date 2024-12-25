@@ -23,7 +23,7 @@ If there is no status icon, then the tool has not been started yet.
 
 > **Clarification Regarding Status**
 > If the status indicates an issue on a specific platform, it does not automatically mean the problem is severe. It could range from us being unable to verify that it works to confirming that it does not work.
-> {status="note"}
+
 
 ## Tools
 
