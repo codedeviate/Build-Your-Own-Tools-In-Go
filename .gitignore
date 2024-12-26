@@ -47,6 +47,7 @@ httpsclient/httpsclient
 httpserver/httpserver
 httpsserver/httpsserver
 ipgeolocation/ipgeolocation
+make/gomake
 netscan/netscan
 netstat/netstat
 packetsniffer/packetsniffer
