@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/username/packetsniffer/crawler"
+	"github.com/username/webcrawler/crawler"
 )
 
 func main() {

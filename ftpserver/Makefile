@@ -25,7 +25,7 @@ clean:
 	rm -f go.sum
 
 complete: clean setup build
-	./$(BINARY_NAME) 3253
+	./$(BINARY_NAME) 3253 "../dummydata"
 
 # Phony targets
 .PHONY: setup build run clean complete

@@ -32,36 +32,36 @@ If there is no status icon, then the tool has not been started yet.
 - [x] [Whois](./whois) :penguin: :green_apple:
 - [x] [Dig/nslookup](./dnslookup) :penguin: :green_apple:
 - [ ] [Traceroute](./traceroute) :chicken: :apple:
-- [x] [Netstat](./netstat) :chicken: :green_apple:
-- [x] [Netscan](./netscan) :chicken: :green_apple:
+- [x] [Netstat](./netstat) :penguin: :green_apple:
+- [x] [Netscan](./netscan) :penguin: :green_apple:
 
 ### Advanced Network Tools
 - [x] [Port Scanner](./portscanner) :penguin: :green_apple:
 - [x] [IP Geolocation](./ipgeolocation) :penguin: :green_apple:
 - [x] [Port Knocking](./portknocking) :penguin: :green_apple:
-- [x] [Packet Sniffer](./packetsniffer) :chicken: :green_apple:
-- [x] [Proxy Server](./proxyserver) :chicken: :green_apple:
-- [x] [Port Forwarding](./portforwarding) :chicken: :green_apple:
+- [x] [Packet Sniffer](./packetsniffer) :penguin: :green_apple:
+- [x] [Proxy Server](./proxyserver) :penguin: :green_apple:
+- [x] [Port Forwarding](./portforwarding) :penguin: :green_apple:
 - [ ] [Bandwidth Monitor](./bandwidthmonitor) :chicken: :apple:
-- [x] [Web Crawler](./webcrawler) :chicken: :green_apple:
-- [x] [Web Scraper](./webscraper) :chicken: :green_apple:
+- [x] [Web Crawler](./webcrawler) :penguin: :green_apple:
+- [x] [Web Scraper](./webscraper) :penguin: :green_apple:
 
 ### Network Services
 - [x] [HTTP Client](./httpclient) :penguin: :green_apple:
-- [x] [HTTP Server](./httpserver) :chicken: :green_apple:
+- [x] [HTTP Server](./httpserver) :penguin: :green_apple:
 - [x] [HTTPS Client](./httpsclient) :penguin: :green_apple:
-- [x] [HTTPS Server](./httpsserver) :chicken: :green_apple:
+- [x] [HTTPS Server](./httpsserver) :penguin: :green_apple:
 - [ ] [FTP Client](./ftpclient)
 - [x] [FTP Server](./ftpserver) :green_apple:
 - [ ] [FTPS Client](./ftpsclient)
 - [ ] [FTPS Server](./ftpsserver) :apple:
-- [x] [SMTP Client](./smtpclient) :green_apple:
-- [x] [SMTP Server](./smtpserver) :green_apple:
-- [x] [Telnet Client](./telnetclient) :green_apple:
-- [x] [Telnet Server](./telnetserver) :green_apple:
+- [x] [SMTP Client](./smtpclient) :penguin: :green_apple:
+- [x] [SMTP Server](./smtpserver) :penguin: :green_apple:
+- [x] [Telnet Client](./telnetclient) :penguin: :green_apple:
+- [x] [Telnet Server](./telnetserver) :penguin: :green_apple:
 - [ ] [SSH Client](./sshclient) :apple:
 - [ ] [SSH Server](./sshserver) :apple:
-- [ ] [DNS Client](./dnsclient) :apple:
+- [ ] [DNS Client](./dnsclient) :penguin: :apple:
 - [ ] [DNS Server](./dnsserver) :apple:
 - [ ] [DHCP Client](./dhcpclient)
 - [ ] [DHCP Server](./dhcpserver)
