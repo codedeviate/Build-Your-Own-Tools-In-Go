@@ -8,14 +8,15 @@ The current status of each tool will show at the end of the tool name in the lis
 
 **Current status**
 
-| Status icon   | Description         |
-| ------------- | ------------------- |
-| :green_apple: | Working on macOS    |
-| :apple:       | Problems on macOS   |
-| :penguin:     | Working on Linux    |
-| :chicken:     | Problems on Linux   |
-| :window:     | Working on Windows  |
-| :headstone:   | Problems on Windows |
+| Status icon   | Description                     |
+| ------------- | ------------------------------- |
+| :green_apple: | Working on macOS                |
+| :apple:       | Problems on macOS               |
+| :penguin:     | Working on Linux                |
+| :chicken:     | Problems on Linux               |
+| :window:      | Working on Windows              |
+| :headstone:   | Problems on Windows             |
+| :link:        | Code is in sync with the course |
 
 If the checkbox is ticked then the tools is working on atleast one platform.
 

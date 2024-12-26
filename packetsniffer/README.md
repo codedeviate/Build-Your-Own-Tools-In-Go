@@ -41,3 +41,13 @@ make clean
 ```
 
 Run `make setup` again before building the project.
+
+## Complete
+
+For testing purposes, you can run the following command:
+
+```bash
+make complete
+```
+
+It will run clean, setup, build and finally run the project with some basic test parameters.
