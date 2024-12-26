@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	"github.com/username/go-make/make_file"
+	"github.com/username/go-make/vars"
 )
 
 func RunTask(taskName string, tasks map[string]*make_file.Task) error {
@@ -19,6 +20,8 @@ func RunTask(taskName string, tasks map[string]*make_file.Task) error {
 	for _, task := range executionOrder {
 		if len(tasks[task].Command) > 0 {
 			for _, command := range tasks[task].Command {
+				command = vars.EvalVar(command)
+				fmt.Println(command)
 				cmd := exec.Command("sh", "-c", strings.TrimPrefix(command, "@"))
 				cmd.Stderr = os.Stderr
 				cmd.Stdout = os.Stdout

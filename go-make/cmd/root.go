@@ -2,9 +2,12 @@ package cmd
 
 import (
 	"fmt"
+	"log"
 	"os"
+	"strings"
 
 	"github.com/username/go-make/executor"
+	"github.com/username/go-make/vars"
 
 	"github.com/spf13/cobra"
 	"github.com/username/go-make/make_file"
@@ -19,7 +22,18 @@ var rootCmd = &cobra.Command{
 			fmt.Println("Please specify a target task")
 			os.Exit(1)
 		}
-		taskName := args[0]
+		taskName := ""
+		for _, arg := range args {
+			if strings.Contains(arg, "=") {
+				parts := strings.Split(arg, "=")
+				vars.VarList[parts[0]] = vars.EvalVar(parts[1])
+			} else if len(taskName) == 0 {
+				taskName = arg
+			} else {
+				log.Fatal("Too many arguments")
+				os.Exit(1)
+			}
+		}
 		makeFileName, _ := cmd.Flags().GetString("file")
 		if len(makeFileName) == 0 {
 			makeFileName = "Makefile"

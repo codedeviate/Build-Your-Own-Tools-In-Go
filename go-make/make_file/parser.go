@@ -5,6 +5,8 @@ import (
 	"log"
 	"os"
 	"strings"
+
+	"github.com/username/go-make/vars"
 )
 
 type Task struct {
@@ -29,6 +31,11 @@ func ParseMakefile(filename string) (map[string]*Task, error) {
 		line := scanner.Text()
 		trimmedLine := strings.TrimSpace(line)
 		if !strings.HasPrefix(line, "\t") {
+			if strings.Contains(line, "=") {
+				parts := strings.SplitN(line, "=", 2)
+				vars.VarList[parts[0]] = vars.EvalVar(parts[1])
+				continue
+			}
 			parts := strings.Split(trimmedLine, ":")
 			taskName := strings.TrimSuffix(parts[0], ":")
 			currentTask = &Task{Name: taskName}

@@ -1,3 +1,5 @@
+STR=$(HELLO)
+
 setup:
 	go mod init github.com/username/go-make
 	go get github.com/spf13/cobra@latest
@@ -6,10 +8,10 @@ build:
 	go build -o gomake
 
 test: build
-	./gomake echo
+	./gomake echo HELLO=$(STR)
 
 echo:
-	@echo "Hello, World!"
+	@echo "Hello, $(STR)!"
 
 clean:
 	rm -f gomake
