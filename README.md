@@ -28,6 +28,9 @@ If there is no status icon, then the tool has not been started yet.
 
 ## Tools
 
+### Development Tools
+- [x] [go-make](./go-make) :green_apple:
+
 ### Basic Network Tools
 - [x] [Ping](./ping) :penguin: :green_apple:
 - [x] [Whois](./whois) :penguin: :green_apple:
