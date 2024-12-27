@@ -40,6 +40,8 @@ bandwidthmonitor/bandwidthmonitor
 dnsclient/dnsclient
 dnslookup/dnslookup
 dnsserver/dnsserver
+ftpclient/ftpclient
+ftpsclient/ftpsclient
 ftpserver/ftpserver
 ftpsserver/ftpsserver
 httpclient/httpclient
@@ -63,6 +65,7 @@ sshserver/sshserver
 telnetclient/telnetclient
 telnetserver/telnetserver
 traceroute/traceroute
+watcher/watcher
 webcrawler/webcrawler
 webscraper/webscraper
 whois/whois

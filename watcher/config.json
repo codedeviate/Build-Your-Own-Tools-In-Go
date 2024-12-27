@@ -1,0 +1,12 @@
+{
+  "*.txt": {
+    "WRITE": [
+      "echo Text file changed: {file}"
+    ]
+  },
+  "logs/*.log": {
+    "CHMOD": [
+      "echo Log file modified: {file}"
+    ]
+  }
+}

@@ -30,6 +30,7 @@ If there is no status icon, then the tool has not been started yet.
 
 ### Development Tools
 - [x] [go-make](./go-make) :green_apple:
+- [ ] [watcher](./watcher)
 
 ### Basic Network Tools
 - [x] [Ping](./ping) :penguin: :green_apple:
@@ -55,9 +56,9 @@ If there is no status icon, then the tool has not been started yet.
 - [x] [HTTP Server](./httpserver) :penguin: :green_apple:
 - [x] [HTTPS Client](./httpsclient) :penguin: :green_apple:
 - [x] [HTTPS Server](./httpsserver) :penguin: :green_apple:
-- [ ] [FTP Client](./ftpclient)
+- [x] [FTP Client](./ftpclient) :green_apple:
 - [x] [FTP Server](./ftpserver) :green_apple:
-- [ ] [FTPS Client](./ftpsclient)
+- [ ] [FTPS Client](./ftpsclient) :apple:
 - [ ] [FTPS Server](./ftpsserver) :apple:
 - [x] [SMTP Client](./smtpclient) :penguin: :green_apple:
 - [x] [SMTP Server](./smtpserver) :penguin: :green_apple:
