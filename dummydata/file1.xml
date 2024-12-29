@@ -1,0 +1,14 @@
+<data>
+    <pair>
+        <key>key1</key>
+        <value>value1</value>
+    </pair>
+    <pair>
+        <key>key2</key>
+        <value>value2</value>
+    </pair>
+    <pair>
+        <key>key2</key>
+        <value>value3</value>
+    </pair>
+</data>
