@@ -77,3 +77,12 @@ If there is no status icon, then the tool has not been started yet.
 - [ ] [Firewall](./firewall)
 - [ ] [Load Balancer](./loadbalancer)
 - [ ] [Reverse Proxy](./reverseproxy)
+
+### Miscellaneous Tools
+- [x] [jq](./jq) :green_apple:
+- [ ] [Log analyzer](./loganalyzer)
+- [ ] [File Compressor](./filecompressor)
+- [ ] [Task Scheduler](./taskscheduler)
+- [ ] [Text Processor](./textprocessor)
+- [x] [Encode/Decode](./encodedecode) :green_apple:
+- [x] [Hash](./hash) :green_apple:
