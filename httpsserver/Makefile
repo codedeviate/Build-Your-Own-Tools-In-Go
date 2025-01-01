@@ -8,7 +8,7 @@ PORT=$(PORT)
 setup:
 	go mod init github.com/username/httpsserver
 	go mod tidy
-	openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes -subj "/C=US/ST=State/L=City/O=Organization/OU=Department/CN=example.com"
+	openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes -subj "/C=SE/ST=Skåne/L=Malmö/O=Example/OU=Development/CN=example.com"
 
 # Build the binary
 build:

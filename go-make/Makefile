@@ -13,6 +13,9 @@ test: build
 echo:
 	@echo "Hello, $(STR)!"
 
+complete: clean setup build
+	make test HELLO=world
+
 clean:
 	rm -f gomake
 	rm -f go.mod

@@ -9,7 +9,7 @@ setup:
 	go mod init github.com/username/sshserver
 	go get golang.org/x/crypto/ssh
 	go mod tidy
-	openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes
+	openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes -subj "/C=SE/ST=Skåne/L=Malmö/O=Example/OU=Development/CN=example.com"
 
 # Build the binary
 build:
