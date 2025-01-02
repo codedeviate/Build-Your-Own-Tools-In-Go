@@ -34,40 +34,40 @@ If there is no status icon, then the tool has not been started yet.
 
 ### Basic Network Tools
 - [x] [Ping](./ping) :penguin: :green_apple: :window:
-- [x] [Whois](./whois) :penguin: :green_apple:
-- [x] [Dig/nslookup](./dnslookup) :penguin: :green_apple:
+- [x] [Whois](./whois) :penguin: :green_apple: :window:
+- [x] [Dig/nslookup](./dnslookup) :penguin: :green_apple: :window:
 - [ ] [Traceroute](./traceroute) :chicken: :apple:
-- [x] [Netstat](./netstat) :penguin: :green_apple:
-- [x] [Netscan](./netscan) :penguin: :green_apple:
+- [x] [Netstat](./netstat) :penguin: :green_apple: :headstone:
+- [x] [Netscan](./netscan) :penguin: :green_apple: :window:
 
 ### Advanced Network Tools
-- [x] [Port Scanner](./portscanner) :penguin: :green_apple:
-- [x] [IP Geolocation](./ipgeolocation) :penguin: :green_apple:
-- [x] [Port Knocking](./portknocking) :penguin: :green_apple:
-- [x] [Packet Sniffer](./packetsniffer) :penguin: :green_apple:
-- [x] [Proxy Server](./proxyserver) :penguin: :green_apple:
-- [x] [Port Forwarding](./portforwarding) :penguin: :green_apple:
-- [ ] [Bandwidth Monitor](./bandwidthmonitor) :chicken: :apple:
-- [x] [Web Crawler](./webcrawler) :penguin: :green_apple:
-- [x] [Web Scraper](./webscraper) :penguin: :green_apple:
+- [x] [Port Scanner](./portscanner) :penguin: :green_apple: :window:
+- [x] [IP Geolocation](./ipgeolocation) :penguin: :green_apple: :window:
+- [x] [Port Knocking](./portknocking) :penguin: :green_apple: :window:
+- [x] [Packet Sniffer](./packetsniffer) :penguin: :green_apple: :headstone:
+- [x] [Proxy Server](./proxyserver) :penguin: :green_apple: :window:
+- [x] [Port Forwarding](./portforwarding) :penguin: :green_apple: :window:
+- [ ] [Bandwidth Monitor](./bandwidthmonitor) :chicken: :apple: :headstone:
+- [x] [Web Crawler](./webcrawler) :penguin: :green_apple: :window:
+- [x] [Web Scraper](./webscraper) :penguin: :green_apple: :window:
 
 ### Network Services
-- [x] [HTTP Client](./httpclient) :penguin: :green_apple:
-- [x] [HTTP Server](./httpserver) :penguin: :green_apple:
-- [x] [HTTPS Client](./httpsclient) :penguin: :green_apple:
-- [x] [HTTPS Server](./httpsserver) :penguin: :green_apple:
-- [x] [FTP Client](./ftpclient) :green_apple:
-- [x] [FTP Server](./ftpserver) :green_apple:
-- [ ] [FTPS Client](./ftpsclient) :apple:
-- [ ] [FTPS Server](./ftpsserver) :apple:
-- [x] [SMTP Client](./smtpclient) :penguin: :green_apple:
-- [x] [SMTP Server](./smtpserver) :penguin: :green_apple:
-- [x] [Telnet Client](./telnetclient) :penguin: :green_apple:
-- [x] [Telnet Server](./telnetserver) :penguin: :green_apple:
+- [x] [HTTP Client](./httpclient) :penguin: :green_apple: :window:
+- [x] [HTTP Server](./httpserver) :penguin: :green_apple: :window:
+- [x] [HTTPS Client](./httpsclient) :penguin: :green_apple: :window:
+- [x] [HTTPS Server](./httpsserver) :penguin: :green_apple: :window:
+- [x] [FTP Client](./ftpclient) :green_apple: :window:
+- [x] [FTP Server](./ftpserver) :green_apple: :window:
+- [ ] [FTPS Client](./ftpsclient) :apple: :headstone:
+- [ ] [FTPS Server](./ftpsserver) :apple: :headstone:
+- [x] [SMTP Client](./smtpclient) :penguin: :green_apple: :window:
+- [x] [SMTP Server](./smtpserver) :penguin: :green_apple: :window:
+- [x] [Telnet Client](./telnetclient) :penguin: :green_apple: :window:
+- [x] [Telnet Server](./telnetserver) :penguin: :green_apple: :window:
 - [ ] [SSH Client](./sshclient) :apple:
 - [ ] [SSH Server](./sshserver) :apple:
-- [ ] [DNS Client](./dnsclient) :penguin: :apple:
-- [ ] [DNS Server](./dnsserver) :apple:
+- [ ] [DNS Client](./dnsclient) :penguin: :apple:+
+- [ ] [DNS Server](./dnsserver) :apple: :headstone:
 - [ ] [DHCP Client](./dhcpclient)
 - [ ] [DHCP Server](./dhcpserver)
 - [ ] [VPN Client](./vpnclient)
@@ -79,10 +79,10 @@ If there is no status icon, then the tool has not been started yet.
 - [ ] [Reverse Proxy](./reverseproxy)
 
 ### Miscellaneous Tools
-- [x] [jq](./jq) :green_apple:
+- [x] [jq](./jq) :green_apple: :window:
 - [ ] [Log analyzer](./loganalyzer)
 - [ ] [File Compressor](./filecompressor)
 - [ ] [Task Scheduler](./taskscheduler)
 - [ ] [Text Processor](./textprocessor)
-- [x] [Encode/Decode](./encodedecode) :green_apple:
-- [x] [Hash](./hash) :green_apple:
+- [x] [Encode/Decode](./encodedecode) :green_apple: :headstone:
+- [x] [Hash](./hash) :green_apple: :window:
