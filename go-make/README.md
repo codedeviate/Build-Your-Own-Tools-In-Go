@@ -19,7 +19,8 @@ go-make/
 ├── executor/
 │   └── runner.go
 └── utils/
-    └── logger.go
+    ├── logger.go
+    └── stack.go
 ```
 
 ## Installation
