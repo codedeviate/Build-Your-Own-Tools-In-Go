@@ -29,8 +29,11 @@ If there is no status icon, then the tool has not been started yet.
 ## Tools
 
 ### Development Tools
-- [x] [go-make](./go-make) :penguin: :green_apple: :window:
-- [x] [watcher](./watcher) :penguin: :green_apple:
+
+| Status | Link | Linux | Mac | Windows |
+|--------|------|-------|-----|---------|
+| - [x]  | [go-make](./go-make) | :penguin: |:green_apple:| :window:|
+| - [x]  | [watcher](./watcher) | :penguin: |:green_apple:|         |
 
 ### Basic Network Tools
 - [x] [Ping](./ping) :penguin: :green_apple: :window:
