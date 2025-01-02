@@ -2,6 +2,13 @@
 
 # Variables
 BINARY_NAME=httpserver
+EXT=
+RM=rm -f
+ifeq ($(OS),Windows_NT)
+    EXT=.exe
+	RM=del /Q
+endif
+BINARY=$(BINARY_NAME)$(EXT)
 PORT=$(PORT)
 
 # Setup dependencies
@@ -11,20 +18,20 @@ setup:
 
 # Build the binary
 build:
-	go build -o $(BINARY_NAME) main.go
+	go build -o $(BINARY) main.go
 
 # Run the application
 run: build
-	./$(BINARY_NAME) $(PORT)
+	./$(BINARY) $(PORT)
 
 # Clean the build
 clean:
-	rm -f $(BINARY_NAME)
-	rm -f go.mod
-	rm -f go.sum
+	$(RM) $(BINARY_NAME)
+	$(RM) go.mod
+	$(RM) go.sum
 
 complete: clean setup build
-	./$(BINARY_NAME) 6788
+	./$(BINARY) 6788
 
 # Phony targets
 .PHONY: setup build run clean complete

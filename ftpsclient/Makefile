@@ -2,6 +2,13 @@
 
 # Variables
 BINARY_NAME=packetsniffer
+EXT=
+RM=rm -f
+ifeq ($(OS),Windows_NT)
+    EXT=.exe
+	RM=del /Q
+endif
+BINARY=$(BINARY_NAME)$(EXT)
 SERVER_ADDRESS=$(SERVER)
 USERNAME=$(USER)
 PASSW=$(PASSWORD)
@@ -15,20 +22,20 @@ setup:
 
 # Build the binary
 build:
-	go build -o $(BINARY_NAME) main.go
+	go build -o $(BINARY) main.go
 
 # Run the application
 run: build
-	./$(BINARY_NAME) $(SERVER_ADDRESS) $(USERNAME) $(PASSW) $(FILE)
+	./$(BINARY) $(SERVER_ADDRESS) $(USERNAME) $(PASSW) $(FILE)
 
 # Clean the build
 clean:
-	rm -f $(BINARY_NAME)
-	rm -f go.mod
-	rm -f go.sum
+	$(RM) $(BINARY_NAME)
+	$(RM) go.mod
+	$(RM) go.sum
 
 complete: clean setup build
-	./$(BINARY_NAME) 127.0.0.1:3254 admin admin /file1.txt
+	./$(BINARY) 127.0.0.1:3254 admin admin /file1.txt
 
 # Phony targets
 .PHONY: setup build run clean complete

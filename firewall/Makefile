@@ -2,6 +2,13 @@
 
 # Variables
 BINARY_NAME=packetsniffer
+EXT=
+RM=rm -f
+ifeq ($(OS),Windows_NT)
+    EXT=.exe
+	RM=del /Q
+endif
+BINARY=$(BINARY_NAME)$(EXT)
 INTERFACE=$(INTERFACE)
 
 # Setup dependencies
@@ -13,20 +20,20 @@ setup:
 
 # Build the binary
 build:
-	go build -o $(BINARY_NAME) main.go
+	go build -o $(BINARY) main.go
 
 # Run the application
 run: build
-	sudo ./$(BINARY_NAME) $(INTERFACE)
+	sudo ./$(BINARY) $(INTERFACE)
 
 # Clean the build
 clean:
-	rm -f $(BINARY_NAME)
-	rm -f go.mod
-	rm -f go.sum
+	$(RM) $(BINARY_NAME)
+	$(RM) go.mod
+	$(RM) go.sum
 
 complete: clean setup build
-	./$(BINARY_NAME) en0
+	./$(BINARY) en0
 
 # Phony targets
 .PHONY: setup build run clean complete

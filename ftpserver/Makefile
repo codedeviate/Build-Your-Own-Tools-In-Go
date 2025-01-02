@@ -2,6 +2,13 @@
 
 # Variables
 BINARY_NAME=ftpserver
+EXT=
+RM=rm -f
+ifeq ($(OS),Windows_NT)
+    EXT=.exe
+	RM=del /Q
+endif
+BINARY=$(BINARY_NAME)$(EXT)
 PORT=$(PORT)
 
 # Setup dependencies
@@ -12,20 +19,20 @@ setup:
 
 # Build the binary
 build:
-	go build -o $(BINARY_NAME) main.go
+	go build -o $(BINARY) main.go
 
 # Run the application
 run: build
-	./$(BINARY_NAME) $(PORT) "../dummydata"
+	./$(BINARY) $(PORT) "../dummydata"
 
 # Clean the build
 clean:
-	rm -f $(BINARY_NAME)
-	rm -f go.mod
-	rm -f go.sum
+	$(RM) $(BINARY_NAME)
+	$(RM) go.mod
+	$(RM) go.sum
 
 complete: clean setup build
-	./$(BINARY_NAME) 3253 "../dummydata"
+	./$(BINARY) 3253 "../dummydata"
 
 # Phony targets
 .PHONY: setup build run clean complete

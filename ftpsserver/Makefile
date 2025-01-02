@@ -2,6 +2,13 @@
 
 # Variables
 BINARY_NAME=ftpsserver
+EXT=
+RM=rm -f
+ifeq ($(OS),Windows_NT)
+    EXT=.exe
+	RM=del /Q
+endif
+BINARY=$(BINARY_NAME)$(EXT)
 PORT=$(PORT)
 
 # Setup dependencies
@@ -13,22 +20,22 @@ setup:
 
 # Build the binary
 build:
-	go build -o $(BINARY_NAME) main.go
+	go build -o $(BINARY) main.go
 
 # Run the application
 run: build
-	./$(BINARY_NAME) $(PORT) "../dummydata" cert.pem key.pem
+	./$(BINARY) $(PORT) "../dummydata" cert.pem key.pem
 
 # Clean the build
 clean:
-	rm -f $(BINARY_NAME)
-	rm -f go.mod
-	rm -f go.sum
-	rm -f cert.pem
-	rm -f key.pem
+	$(RM) $(BINARY_NAME)
+	$(RM) go.mod
+	$(RM) go.sum
+	$(RM) cert.pem
+	$(RM) key.pem
 
 complete: clean setup build
-	./$(BINARY_NAME) 3254 "../dummydata" cert.pem key.pem
+	./$(BINARY) 3254 "../dummydata" cert.pem key.pem
 
 # Phony targets
 .PHONY: setup build run clean complete

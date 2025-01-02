@@ -2,6 +2,13 @@
 
 # Variables
 BINARY_NAME=portscanner
+EXT=
+RM=rm -f
+ifeq ($(OS),Windows_NT)
+    EXT=.exe
+	RM=del /Q
+endif
+BINARY=$(BINARY_NAME)$(EXT)
 PROTOCOL=$(PROTOCOL)
 HOST=$(HOST)
 START_PORT=$(START_PORT)
@@ -14,20 +21,20 @@ setup:
 
 # Build the binary
 build:
-	go build -o $(BINARY_NAME) main.go
+	go build -o $(BINARY) main.go
 
 # Run the application
 run: build
-	./$(BINARY_NAME) $(PROTOCOL) $(HOST) $(START_PORT) $(END_PORT)
+	./$(BINARY) $(PROTOCOL) $(HOST) $(START_PORT) $(END_PORT)
 
 # Clean the build
 clean:
-	rm -f $(BINARY_NAME)
-	rm -f go.mod
-	rm -f go.sum
+	$(RM) $(BINARY_NAME)
+	$(RM) go.mod
+	$(RM) go.sum
 
 complete: clean setup build
-	./$(BINARY_NAME) tcp scanme.nmap.org 1 1024
+	./$(BINARY) tcp scanme.nmap.org 1 1024
 
 # Phony targets
 .PHONY: setup build run clean complete

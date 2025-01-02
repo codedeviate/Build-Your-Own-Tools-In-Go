@@ -17,6 +17,6 @@ complete: clean setup build
 	make test HELLO=world
 
 clean:
-	rm -f gomake
-	rm -f go.mod
-	rm -f go.sum
+	$(RM) gomake
+	$(RM) go.mod
+	$(RM) go.sum
