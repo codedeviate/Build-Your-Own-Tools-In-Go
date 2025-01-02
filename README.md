@@ -19,8 +19,8 @@ The current status of each tool will show at the end of the tool name in the lis
 | :link:        | Code is in sync with the course |
 
 The status field have a check mark.
-- :heavy_check_mark: Code is working on all platforms
-- :white_check_mark: Code is working on at least one platform
+- :white_check_mark: Code is working on all platforms
+- :grey_question: Code is working on at least one platform
 - :x: Code doesn't work on any platform
 - :heavy_minus_sign: Code isn't ready yet or hasn't not been started
 
@@ -34,8 +34,8 @@ The status field have a check mark.
 
 | Status             | Module               | Linux     | Mac           | Windows  |
 |--------------------|----------------------|-----------|---------------|----------|
-| :heavy_check_mark: | [go-make](./go-make) | :penguin: | :green_apple: | :window: |
-| :white_check_mark: | [watcher](./watcher) | :penguin: | :green_apple: |          |
+| :white_check_mark: | [go-make](./go-make) | :penguin: | :green_apple: | :window: |
+| :grey_question:    | [watcher](./watcher) | :penguin: | :green_apple: |          |
 
 ### Basic Network Tools
 
@@ -44,8 +44,8 @@ The status field have a check mark.
 | :white_check_mark: | [Ping](./ping)              | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [Whois](./whois)            | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [Dig/nslookup](./dnslookup) | :penguin: | :green_apple: | :window:    |
-| :white_check_mark: | [Traceroute](./traceroute)  | :chicken: | :apple:       |             |
-| :white_check_mark: | [Netstat](./netstat)        | :penguin: | :green_apple: | :headstone: |
+| :grey_question:    | [Traceroute](./traceroute)  | :chicken: | :apple:       |             |
+| :grey_question:    | [Netstat](./netstat)        | :penguin: | :green_apple: | :headstone: |
 | :white_check_mark: | [Netscan](./netscan)        | :penguin: | :green_apple: | :window:    |
 
 ### Advanced Network Tools
@@ -55,7 +55,7 @@ The status field have a check mark.
 | :white_check_mark: | [Port Scanner](./portscanner)           | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [IP Geolocation](./ipgeolocation)       | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [Port Knocking](./portknocking)         | :penguin: | :green_apple: | :window:    |
-| :white_check_mark: | [Packet Sniffer](./packetsniffer)       | :penguin: | :green_apple: | :headstone: |
+| :grey_question:    | [Packet Sniffer](./packetsniffer)       | :penguin: | :green_apple: | :headstone: |
 | :white_check_mark: | [Proxy Server](./proxyserver)           | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [Port Forwarding](./portforwarding)     | :penguin: | :green_apple: | :window:    |
 | :heavy_minus_sign: | [Bandwidth Monitor](./bandwidthmonitor) | :chicken: | :apple:       | :headstone: |
@@ -70,17 +70,17 @@ The status field have a check mark.
 | :white_check_mark: | [HTTP Server](./httpserver)     | :penguin:     | :green_apple: | :window:    |
 | :white_check_mark: | [HTTPS Client](./httpsclient)   | :penguin:     | :green_apple: | :window:    |
 | :white_check_mark: | [HTTPS Server](./httpsserver)   | :penguin:     | :green_apple: | :window:    |
-| :white_check_mark: | [FTP Client](./ftpclient)       | :green_apple: | :window:      |
-| :white_check_mark: | [FTP Server](./ftpserver)       | :green_apple: | :window:      |
-| :heavy_minus_sign: | [FTPS Client](./ftpsclient)     | :apple:       | :headstone:   |
-| :heavy_minus_sign: | [FTPS Server](./ftpsserver)     | :apple:       | :headstone:   |
+| :grey_question:    | [FTP Client](./ftpclient)       | :green_apple: | :window:      |             |
+| :grey_question:    | [FTP Server](./ftpserver)       | :green_apple: | :window:      |             |
+| :grey_question:    | [FTPS Client](./ftpsclient)     | :apple:       | :headstone:   |             |
+| :grey_question:    | [FTPS Server](./ftpsserver)     | :apple:       | :headstone:   |             |
 | :white_check_mark: | [SMTP Client](./smtpclient)     | :penguin:     | :green_apple: | :window:    |
 | :white_check_mark: | [SMTP Server](./smtpserver)     | :penguin:     | :green_apple: | :window:    |
 | :white_check_mark: | [Telnet Client](./telnetclient) | :penguin:     | :green_apple: | :window:    |
 | :white_check_mark: | [Telnet Server](./telnetserver) | :penguin:     | :green_apple: | :window:    |
 | :heavy_minus_sign: | [SSH Client](./sshclient)       |               | :apple:       |             |
 | :heavy_minus_sign: | [SSH Server](./sshserver)       |               | :apple:       |             |
-| :heavy_minus_sign: | [DNS Client](./dnsclient)       | :penguin:     | :apple:       |             |
+| :white_check_mark: | [DNS Client](./dnsclient)       | :penguin:     | :apple:       |             |
 | :heavy_minus_sign: | [DNS Server](./dnsserver)       |               | :apple:       | :headstone: |
 | :heavy_minus_sign: | [DHCP Client](./dhcpclient)     |               |               |             |
 | :heavy_minus_sign: | [DHCP Server](./dhcpserver)     |               |               |             |
@@ -99,10 +99,10 @@ The status field have a check mark.
 
 | Status             | Module                              | Linux  | Mac           | Windows     |
 |--------------------|-------------------------------------|--------|---------------|-------------|
-| :white_check_mark: | [jq](./jq)                          |        | :green_apple: | :window:    |
+| :grey_question:    | [jq](./jq)                          |        | :green_apple: | :window:    |
 | :heavy_minus_sign: | [Log analyzer](./loganalyzer)       |        |               |             |
 | :heavy_minus_sign: | [File Compressor](./filecompressor) |        |               |             |
 | :heavy_minus_sign: | [Task Scheduler](./taskscheduler)   |        |               |             |
 | :heavy_minus_sign: | [Text Processor](./textprocessor)   |        |               |             |
-| :white_check_mark: | [Encode/Decode](./encodedecode)     |        | :green_apple: | :headstone: |
-| :white_check_mark: | [Hash](./hash)                      |        | :green_apple: | :window:    |
+| :grey_question:    | [Encode/Decode](./encodedecode)     |        | :green_apple: | :headstone: |
+| :grey_question:    | [Hash](./hash)                      |        | :green_apple: | :window:    |
