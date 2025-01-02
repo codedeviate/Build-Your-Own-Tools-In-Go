@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
+	"runtime"
 	"strings"
 
 	"github.com/username/go-make/make_file"
@@ -22,7 +23,12 @@ func RunTask(taskName string, tasks map[string]*make_file.Task) error {
 			for _, command := range tasks[task].Command {
 				command = vars.EvalVar(command)
 				fmt.Println(command)
-				cmd := exec.Command("sh", "-c", strings.TrimPrefix(command, "@"))
+				var cmd *exec.Cmd
+				if runtime.GOOS == "windows" {
+					cmd = exec.Command("cmd", "/C", strings.TrimPrefix(command, "@"))
+				} else {
+					cmd = exec.Command("sh", "-c", strings.TrimPrefix(command, "@"))
+				}
 				cmd.Stderr = os.Stderr
 				cmd.Stdout = os.Stdout
 				if err := cmd.Run(); err != nil {

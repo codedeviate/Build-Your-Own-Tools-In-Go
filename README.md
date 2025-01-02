@@ -64,28 +64,27 @@ The status field have a check mark.
 
 ### Network Services
 
-| Status             | Module                          | Linux         | Mac           | Windows     |
-|--------------------|---------------------------------|---------------|---------------|-------------|
-| :white_check_mark: | [HTTP Client](./httpclient)     | :penguin:     | :green_apple: | :window:    |
-| :white_check_mark: | [HTTP Server](./httpserver)     | :penguin:     | :green_apple: | :window:    |
-| :white_check_mark: | [HTTPS Client](./httpsclient)   | :penguin:     | :green_apple: | :window:    |
-| :white_check_mark: | [HTTPS Server](./httpsserver)   | :penguin:     | :green_apple: | :window:    |
-| :grey_question:    | [FTP Client](./ftpclient)       | :green_apple: | :window:      |             |
-| :grey_question:    | [FTP Server](./ftpserver)       | :green_apple: | :window:      |             |
-| :grey_question:    | [FTPS Client](./ftpsclient)     | :apple:       | :headstone:   |             |
-| :grey_question:    | [FTPS Server](./ftpsserver)     | :apple:       | :headstone:   |             |
-| :white_check_mark: | [SMTP Client](./smtpclient)     | :penguin:     | :green_apple: | :window:    |
-| :white_check_mark: | [SMTP Server](./smtpserver)     | :penguin:     | :green_apple: | :window:    |
-| :white_check_mark: | [Telnet Client](./telnetclient) | :penguin:     | :green_apple: | :window:    |
-| :white_check_mark: | [Telnet Server](./telnetserver) | :penguin:     | :green_apple: | :window:    |
-| :heavy_minus_sign: | [SSH Client](./sshclient)       |               | :apple:       |             |
-| :heavy_minus_sign: | [SSH Server](./sshserver)       |               | :apple:       |             |
-| :white_check_mark: | [DNS Client](./dnsclient)       | :penguin:     | :apple:       |             |
-| :heavy_minus_sign: | [DNS Server](./dnsserver)       |               | :apple:       | :headstone: |
-| :heavy_minus_sign: | [DHCP Client](./dhcpclient)     |               |               |             |
-| :heavy_minus_sign: | [DHCP Server](./dhcpserver)     |               |               |             |
-| :heavy_minus_sign: | [VPN Client](./vpnclient)       |               |               |             |
-| :heavy_minus_sign: | [VPN Server](./vpnserver)       |               |               |             |
+| Status             | Module                          | Linux     | Mac           | Windows     |
+|--------------------|---------------------------------|-----------|---------------|-------------|
+| :white_check_mark: | [HTTP Client](./httpclient)     | :penguin: | :green_apple: | :window:    |
+| :white_check_mark: | [HTTP Server](./httpserver)     | :penguin: | :green_apple: | :window:    |
+| :white_check_mark: | [HTTPS Client](./httpsclient)   | :penguin: | :green_apple: | :window:    |
+| :white_check_mark: | [HTTPS Server](./httpsserver)   | :penguin: | :green_apple: | :window:    |
+| :grey_question:    | [FTP Server](./ftpserver)       |           | :green_apple: | :window:    |
+| :grey_question:    | [FTPS Client](./ftpsclient)     |           | :apple:       | :headstone: |
+| :grey_question:    | [FTPS Server](./ftpsserver)     |           | :apple:       | :headstone: |
+| :white_check_mark: | [SMTP Client](./smtpclient)     | :penguin: | :green_apple: | :window:    |
+| :white_check_mark: | [SMTP Server](./smtpserver)     | :penguin: | :green_apple: | :window:    |
+| :white_check_mark: | [Telnet Client](./telnetclient) | :penguin: | :green_apple: | :window:    |
+| :white_check_mark: | [Telnet Server](./telnetserver) | :penguin: | :green_apple: | :window:    |
+| :heavy_minus_sign: | [SSH Client](./sshclient)       |           | :apple:       |             |
+| :heavy_minus_sign: | [SSH Server](./sshserver)       |           | :apple:       |             |
+| :white_check_mark: | [DNS Client](./dnsclient)       | :penguin: | :apple:       |             |
+| :heavy_minus_sign: | [DNS Server](./dnsserver)       |           | :apple:       | :headstone: |
+| :heavy_minus_sign: | [DHCP Client](./dhcpclient)     |           |               |             |
+| :heavy_minus_sign: | [DHCP Server](./dhcpserver)     |           |               |             |
+| :heavy_minus_sign: | [VPN Client](./vpnclient)       |           |               |             |
+| :heavy_minus_sign: | [VPN Server](./vpnserver)       |           |               |             |
 
 ### Security Tools
 

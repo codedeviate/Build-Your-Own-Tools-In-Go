@@ -3,6 +3,7 @@ package vars
 import (
 	"os"
 	"regexp"
+	"runtime"
 )
 
 var VarList map[string]interface{} = make(map[string]interface{})
@@ -20,4 +21,21 @@ func EvalVar(input string) string {
 		return VarList[key].(string)
 	})
 	return val
+}
+
+// Pre-fill the VarList with environment variables
+func Init() {
+	VarList["PWD"] = os.Getenv("PWD")
+	VarList["CURDIR"] = os.Getenv("PWD")
+	VarList["HOME"] = os.Getenv("HOME")
+	VarList["USER"] = os.Getenv("USER")
+	VarList["USERNAME"] = os.Getenv("USER")
+	VarList["SHELL"] = os.Getenv("SHELL")
+	VarList["PATH"] = os.Getenv("PATH")
+	VarList["MAKE"], _ = os.Executable()
+	if runtime.GOOS == "windows" {
+		VarList["OS"] = "Windows_NT"
+	} else {
+		VarList["OS"] = ""
+	}
 }
