@@ -70,6 +70,7 @@ smtpclient/smtpclient
 smtpserver/smtpserver
 sshclient/sshclient
 sshserver/sshserver
+subsystem/subsystem
 telnetclient/telnetclient
 telnetserver/telnetserver
 traceroute/traceroute

@@ -44,9 +44,10 @@ The status field have a check mark.
 | :white_check_mark: | [Ping](./ping)              | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [Whois](./whois)            | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [Dig/nslookup](./dnslookup) | :penguin: | :green_apple: | :window:    |
-| :grey_question:    | [Traceroute](./traceroute)  | :chicken: | :apple:       |             |
+| :grey_question:    | [Traceroute](./traceroute)  | :chicken: | :green_apple: |             |
 | :grey_question:    | [Netstat](./netstat)        | :penguin: | :green_apple: | :headstone: |
 | :white_check_mark: | [Netscan](./netscan)        | :penguin: | :green_apple: | :window:    |
+| :grey_question:    | [Subsystem](./subsystem)    |           | :green_apple: |             |
 
 ### Advanced Network Tools
 
