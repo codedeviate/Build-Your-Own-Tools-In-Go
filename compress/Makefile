@@ -1,7 +1,7 @@
 # Makefile
 
 # Variables
-BINARY_NAME=dhcpclient
+BINARY_NAME=compress
 EXT=
 RM=rm -f
 ifeq ($(OS),Windows_NT)
@@ -9,13 +9,14 @@ ifeq ($(OS),Windows_NT)
 	RM=del /Q
 endif
 BINARY=$(BINARY_NAME)$(EXT)
-INTERFACE=$(INTERFACE)
+S_ACTION=$(ACTION)
+S_TYPE=$(TYPE)
+S_FILE=$(FILE)
 
 # Setup dependencies
 setup:
-	go mod init github.com/username/dhcpclient
-	go get github.com/insomniacslk/dhcp/dhcpv{4,6}
-	go get -u golang.org/x/sys/unix
+	go mod init github.com/username/compress
+	go get github.com/golang/snappy
 	go mod tidy
 
 # Build the binary
@@ -24,7 +25,7 @@ build:
 
 # Run the application
 run: build
-	sudo ./$(BINARY) $(INTERFACE)
+	sudo ./$(BINARY) $(S_ACTION) $(S_TYPE) $(S_INFILE)
 
 # Clean the build
 clean:
@@ -33,7 +34,7 @@ clean:
 	$(RM) go.sum
 
 complete: clean setup build
-	./$(BINARY) en0
+	./$(BINARY) compress gzip main.go
 
 # Phony targets
 .PHONY: setup build run clean complete

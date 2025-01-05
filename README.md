@@ -47,7 +47,8 @@ The status field have a check mark.
 | :grey_question:    | [Traceroute](./traceroute)  | :chicken: | :green_apple: |             |
 | :grey_question:    | [Netstat](./netstat)        | :penguin: | :green_apple: | :headstone: |
 | :white_check_mark: | [Netscan](./netscan)        | :penguin: | :green_apple: | :window:    |
-| :grey_question:    | [Subsystem](./subsystem)    |           | :green_apple: |             |
+| :grey_question:    | [Subsystem](./subsystem)    | :penguin: | :green_apple: |             |
+| :grey_question:    | [Ifinfo](./ifinfo)          | :penguin: | :green_apple: |             |
 
 ### Advanced Network Tools
 
@@ -82,8 +83,8 @@ The status field have a check mark.
 | :heavy_minus_sign: | [SSH Server](./sshserver)       |           | :apple:       |             |
 | :white_check_mark: | [DNS Client](./dnsclient)       | :penguin: | :apple:       |             |
 | :heavy_minus_sign: | [DNS Server](./dnsserver)       |           | :apple:       | :headstone: |
-| :heavy_minus_sign: | [DHCP Client](./dhcpclient)     |           |               |             |
-| :heavy_minus_sign: | [DHCP Server](./dhcpserver)     |           |               |             |
+| :heavy_minus_sign: | [DHCP Client](./dhcpclient)     |           | :apple:       | :headstone: |
+| :heavy_minus_sign: | [DHCP Server](./dhcpserver)     |           | :apple:       | :headstone: |
 | :heavy_minus_sign: | [VPN Client](./vpnclient)       |           |               |             |
 | :heavy_minus_sign: | [VPN Server](./vpnserver)       |           |               |             |
 
