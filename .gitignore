@@ -76,6 +76,7 @@ smtpclient/smtpclient
 smtpserver/smtpserver
 sshclient/sshclient
 sshserver/sshserver
+strings/strings
 subsystem/subsystem
 telnetclient/telnetclient
 telnetserver/telnetserver
