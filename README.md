@@ -107,3 +107,7 @@ The status field have a check mark.
 | :heavy_minus_sign: | [Text Processor](./textprocessor)   |        |               |             |
 | :grey_question:    | [Encode/Decode](./encodedecode)     |        | :green_apple: | :headstone: |
 | :grey_question:    | [Hash](./hash)                      |        | :green_apple: | :window:    |
+| :grey_question:    | [Strings](./strings)                |        | :green_apple: |             |
+| :grey_question:    | [Decompression](./decompression)    |        | :green_apple: |             |
+| :grey_question:    | [Compression](./compression)        |        | :green_apple: |             |
+| :grey_question:    | [Hexdump](./hexdump)                |        | :green_apple: |             |

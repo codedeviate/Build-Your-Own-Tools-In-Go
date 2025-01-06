@@ -48,6 +48,7 @@ dnsclient/dnsclient
 dnslookup/dnslookup
 dnsserver/dnsserver
 encodedecode/encodedecode
+filecompressor/filecompressor
 firewall/firewall
 ftpclient/ftpclient
 ftpsclient/ftpsclient
@@ -55,6 +56,7 @@ ftpserver/ftpserver
 ftpsserver/ftpsserver
 go-make/gomake
 hash/hash
+hexdump/hexdump
 httpclient/httpclient
 httpsclient/httpsclient
 httpserver/httpserver
@@ -63,6 +65,7 @@ ifinfo/ifinfo
 ipgeolocation/ipgeolocation
 jq/jq
 loadbalancer/loadbalancer
+loganalyzer/loganalyzer
 netscan/netscan
 netstat/netstat
 packetsniffer/packetsniffer
@@ -78,8 +81,10 @@ sshclient/sshclient
 sshserver/sshserver
 strings/strings
 subsystem/subsystem
+taskscheduler/taskscheduler
 telnetclient/telnetclient
 telnetserver/telnetserver
+textprocessor/textprocessor
 traceroute/traceroute
 vpnclient/vpnclient
 vpnserver/vpnserver
