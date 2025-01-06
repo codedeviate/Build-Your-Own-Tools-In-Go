@@ -111,3 +111,4 @@ The status field have a check mark.
 | :grey_question:    | [Decompression](./decompression)    |        | :green_apple: |             |
 | :grey_question:    | [Compression](./compression)        |        | :green_apple: |             |
 | :grey_question:    | [Hexdump](./hexdump)                |        | :green_apple: |             |
+| :grey_question:    | [git-tool](./git-tool)              |        | :green_apple: |             |

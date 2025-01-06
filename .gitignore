@@ -58,6 +58,7 @@ ftpclient/ftpclient
 ftpsclient/ftpsclient
 ftpserver/ftpserver
 ftpsserver/ftpsserver
+git-tool/git-tool
 go-make/gomake
 hash/hash
 hexdump/hexdump
