@@ -52,6 +52,8 @@ The status field have a check mark.
 
 ### Advanced Network Tools
 
+9 tools (8 working on Linux, 8 working on macOS, 7 working on Windows)
+
 | Status             | Module                                  | Linux     | Mac           | Windows     |
 |--------------------|-----------------------------------------|-----------|---------------|-------------|
 | :white_check_mark: | [Port Scanner](./portscanner)           | :penguin: | :green_apple: | :window:    |
@@ -66,13 +68,15 @@ The status field have a check mark.
 
 ### Network Services
 
+19 tools (9 working on Linux, 10 working on macOS, 9 working on Windows)
+
 | Status             | Module                          | Linux     | Mac           | Windows     |
 |--------------------|---------------------------------|-----------|---------------|-------------|
 | :white_check_mark: | [HTTP Client](./httpclient)     | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [HTTP Server](./httpserver)     | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [HTTPS Client](./httpsclient)   | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [HTTPS Server](./httpsserver)   | :penguin: | :green_apple: | :window:    |
-| :grey_question:    | [FTP Server](./ftpserver)       |           | :green_apple: | :window:    |
+| :white_check_mark: | [FTP Server](./ftpserver)       |           | :green_apple: | :window:    |
 | :grey_question:    | [FTPS Client](./ftpsclient)     |           | :apple:       | :headstone: |
 | :grey_question:    | [FTPS Server](./ftpsserver)     |           | :apple:       | :headstone: |
 | :white_check_mark: | [SMTP Client](./smtpclient)     | :penguin: | :green_apple: | :window:    |
@@ -81,7 +85,7 @@ The status field have a check mark.
 | :white_check_mark: | [Telnet Server](./telnetserver) | :penguin: | :green_apple: | :window:    |
 | :heavy_minus_sign: | [SSH Client](./sshclient)       |           | :apple:       |             |
 | :heavy_minus_sign: | [SSH Server](./sshserver)       |           | :apple:       |             |
-| :white_check_mark: | [DNS Client](./dnsclient)       | :penguin: | :apple:       |             |
+| :white_check_mark: | [DNS Client](./dnsclient)       | :penguin: | :green_apple: |             |
 | :heavy_minus_sign: | [DNS Server](./dnsserver)       |           | :apple:       | :headstone: |
 | :heavy_minus_sign: | [DHCP Client](./dhcpclient)     |           | :apple:       | :headstone: |
 | :heavy_minus_sign: | [DHCP Server](./dhcpserver)     |           | :apple:       | :headstone: |
@@ -89,6 +93,8 @@ The status field have a check mark.
 | :heavy_minus_sign: | [VPN Server](./vpnserver)       |           |               |             |
 
 ### Security Tools
+
+3 tools (0 working on Linux, 0 working on macOS, 0 working on Windows)
 
 | Status             | Module                          | Linux  | Mac  | Windows  |
 |--------------------|---------------------------------|--------|------|----------|
@@ -98,12 +104,14 @@ The status field have a check mark.
 
 ### Miscellaneous Tools
 
+12 tools (0 working on Linux, 12 working on macOS, 2 working on Windows)
+
 | Status             | Module                              | Linux  | Mac           | Windows     |
 |--------------------|-------------------------------------|--------|---------------|-------------|
 | :grey_question:    | [jq](./jq)                          |        | :green_apple: | :window:    |
 | :heavy_minus_sign: | [Log analyzer](./loganalyzer)       |        | :green_apple: |             |
-| :heavy_minus_sign: | [File Compressor](./filecompressor) |        |               |             |
-| :heavy_minus_sign: | [Task Scheduler](./taskscheduler)   |        |               |             |
+| :heavy_minus_sign: | [File Compressor](./filecompressor) |        | :green_apple: |             |
+| :heavy_minus_sign: | [Task Scheduler](./taskscheduler)   |        | :green_apple: |             |
 | :heavy_minus_sign: | [Text Processor](./textprocessor)   |        | :green_apple: |             |
 | :grey_question:    | [Encode/Decode](./encodedecode)     |        | :green_apple: | :headstone: |
 | :grey_question:    | [Hash](./hash)                      |        | :green_apple: | :window:    |
