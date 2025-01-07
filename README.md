@@ -101,10 +101,10 @@ The status field have a check mark.
 | Status             | Module                              | Linux  | Mac           | Windows     |
 |--------------------|-------------------------------------|--------|---------------|-------------|
 | :grey_question:    | [jq](./jq)                          |        | :green_apple: | :window:    |
-| :heavy_minus_sign: | [Log analyzer](./loganalyzer)       |        |               |             |
+| :heavy_minus_sign: | [Log analyzer](./loganalyzer)       |        | :green_apple: |             |
 | :heavy_minus_sign: | [File Compressor](./filecompressor) |        |               |             |
 | :heavy_minus_sign: | [Task Scheduler](./taskscheduler)   |        |               |             |
-| :heavy_minus_sign: | [Text Processor](./textprocessor)   |        |               |             |
+| :heavy_minus_sign: | [Text Processor](./textprocessor)   |        | :green_apple: |             |
 | :grey_question:    | [Encode/Decode](./encodedecode)     |        | :green_apple: | :headstone: |
 | :grey_question:    | [Hash](./hash)                      |        | :green_apple: | :window:    |
 | :grey_question:    | [Strings](./strings)                |        | :green_apple: |             |
