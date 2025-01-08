@@ -1,7 +1,7 @@
 # Makefile
 
 # Variables
-BINARY_NAME=packetsniffer
+BINARY_NAME=loadbalancer
 EXT=
 RM=rm -f
 ifeq ($(OS),Windows_NT)
@@ -9,13 +9,11 @@ ifeq ($(OS),Windows_NT)
 	RM=del /Q
 endif
 BINARY=$(BINARY_NAME)$(EXT)
-INTERFACE=$(INTERFACE)
 
 # Setup dependencies
 setup:
-	go mod init github.com/username/packetsniffer
-	go get github.com/google/gopacket
-	go get github.com/google/gopacket/pcap
+	go mod init github.com/username/loadbalancer
+	go get github.com/gorilla/mux
 	go mod tidy
 
 # Build the binary
@@ -24,7 +22,7 @@ build:
 
 # Run the application
 run: build
-	sudo ./$(BINARY) $(INTERFACE)
+	sudo ./$(BINARY)
 
 # Clean the build
 clean:
@@ -33,7 +31,7 @@ clean:
 	$(RM) go.sum
 
 complete: clean setup build
-	./$(BINARY) en0
+	./$(BINARY)
 
 # Phony targets
 .PHONY: setup build run clean complete

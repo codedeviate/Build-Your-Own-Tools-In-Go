@@ -1,7 +1,7 @@
 # Makefile
 
 # Variables
-BINARY_NAME=packetsniffer
+BINARY_NAME=reverseproxy
 EXT=
 RM=rm -f
 ifeq ($(OS),Windows_NT)
@@ -13,9 +13,8 @@ INTERFACE=$(INTERFACE)
 
 # Setup dependencies
 setup:
-	go mod init github.com/username/packetsniffer
-	go get github.com/google/gopacket
-	go get github.com/google/gopacket/pcap
+	go mod init github.com/username/reverseproxy
+	go get github.com/gorilla/mux
 	go mod tidy
 
 # Build the binary

@@ -9,7 +9,9 @@ ifeq ($(OS),Windows_NT)
 	RM=del /Q
 endif
 BINARY=$(BINARY_NAME)$(EXT)
-INTERFACE=$(INTERFACE)
+S_FILENAME=$(FILENAME)
+S_QUERY=$(QUERY)
+S_FORMAT=$(FORMAT)
 
 # Setup dependencies
 setup:
@@ -25,7 +27,7 @@ build:
 
 # Run the application
 run: build
-	sudo ./$(BINARY) $(INTERFACE)
+	sudo ./$(BINARY) --file $(S_FILENAME) --query $(S_QUERY) --format $(S_FORMAT)
 
 # Clean the build
 clean:
@@ -34,7 +36,7 @@ clean:
 	$(RM) go.sum
 
 complete: clean setup build
-	./$(BINARY) en0
+	./$(BINARY) --file ../dummydata/file1.json --query "key2" --format "json"
 
 # Phony targets
 .PHONY: setup build run clean complete

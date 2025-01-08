@@ -32,12 +32,16 @@ The status field have a check mark.
 
 ### Development Tools
 
+2 tools (2 working on Linux, 2 working on macOS, 1 working on Windows)
+
 | Status             | Module               | Linux     | Mac           | Windows  |
 |--------------------|----------------------|-----------|---------------|----------|
 | :white_check_mark: | [go-make](./go-make) | :penguin: | :green_apple: | :window: |
 | :grey_question:    | [watcher](./watcher) | :penguin: | :green_apple: |          |
 
 ### Basic Network Tools
+
+9 tools (7 working on Linux, 9 working on macOS, 4 working on Windows)
 
 | Status             | Module                      | Linux     | Mac           | Windows     |
 |--------------------|-----------------------------|-----------|---------------|-------------|
@@ -53,7 +57,7 @@ The status field have a check mark.
 
 ### Advanced Network Tools
 
-9 tools (8 working on Linux, 8 working on macOS, 7 working on Windows)
+9 tools (8 working on Linux, 9 working on macOS, 7 working on Windows)
 
 | Status             | Module                                  | Linux     | Mac           | Windows     |
 |--------------------|-----------------------------------------|-----------|---------------|-------------|
@@ -95,13 +99,13 @@ The status field have a check mark.
 
 ### Security Tools
 
-3 tools (0 working on Linux, 0 working on macOS, 0 working on Windows)
+3 tools (0 working on Linux, 2 working on macOS, 0 working on Windows)
 
-| Status             | Module                          | Linux  | Mac  | Windows  |
-|--------------------|---------------------------------|--------|------|----------|
-| :heavy_minus_sign: | [Firewall](./firewall)          |        |      |          |
-| :heavy_minus_sign: | [Load Balancer](./loadbalancer) |        |      |          |
-| :heavy_minus_sign: | [Reverse Proxy](./reverseproxy) |        |      |          |
+| Status             | Module                          | Linux  | Mac           | Windows  |
+|--------------------|---------------------------------|--------|---------------|----------|
+| :heavy_minus_sign: | [Firewall](./firewall)          |        |               |          |
+| :grey_question:    | [Load Balancer](./loadbalancer) |        | :green_apple: |          |
+| :grey_question:    | [Reverse Proxy](./reverseproxy) |        | :green_apple: |          |
 
 ### Miscellaneous Tools
 
