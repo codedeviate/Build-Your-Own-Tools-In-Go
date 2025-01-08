@@ -63,7 +63,7 @@ The status field have a check mark.
 | :grey_question:    | [Packet Sniffer](./packetsniffer)       | :penguin: | :green_apple: | :headstone: |
 | :white_check_mark: | [Proxy Server](./proxyserver)           | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [Port Forwarding](./portforwarding)     | :penguin: | :green_apple: | :window:    |
-| :heavy_minus_sign: | [Bandwidth Monitor](./bandwidthmonitor) | :chicken: | :apple:       | :headstone: |
+| :grey_question:    | [Bandwidth Monitor](./bandwidthmonitor) | :chicken: | :green_apple: | :headstone: |
 | :white_check_mark: | [Web Crawler](./webcrawler)             | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [Web Scraper](./webscraper)             | :penguin: | :green_apple: | :window:    |
 

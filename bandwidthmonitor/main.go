@@ -18,7 +18,7 @@ func main() {
 
 	device := os.Args[1]
 	snapshotLen := int32(1024)
-	promiscuous := false
+	promiscuous := true
 	timeout := 30 * time.Second
 
 	bm, err := monitor.NewBandwidthMonitor(device, snapshotLen, promiscuous, timeout)
