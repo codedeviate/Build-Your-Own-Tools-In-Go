@@ -1,4 +1,4 @@
-// scanner.go
+// portscanner.go
 package portscanner
 
 import (
