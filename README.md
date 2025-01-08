@@ -49,6 +49,7 @@ The status field have a check mark.
 | :white_check_mark: | [Netscan](./netscan)        | :penguin: | :green_apple: | :window:    |
 | :grey_question:    | [Subsystem](./subsystem)    | :penguin: | :green_apple: |             |
 | :grey_question:    | [Ifinfo](./ifinfo)          | :penguin: | :green_apple: |             |
+| :grey_question:    | [Certinfo](./certinfo)      |           | :green_apple: |             |
 
 ### Advanced Network Tools
 
