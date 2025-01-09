@@ -73,7 +73,7 @@ The status field have a check mark.
 
 ### Network Services
 
-19 tools (9 working on Linux, 10 working on macOS, 9 working on Windows)
+19 tools (9 working on Linux, 11 working on macOS, 10 working on Windows)
 
 | Status             | Module                          | Linux     | Mac           | Windows     |
 |--------------------|---------------------------------|-----------|---------------|-------------|
@@ -81,6 +81,7 @@ The status field have a check mark.
 | :white_check_mark: | [HTTP Server](./httpserver)     | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [HTTPS Client](./httpsclient)   | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [HTTPS Server](./httpsserver)   | :penguin: | :green_apple: | :window:    |
+| :white_check_mark: | [FTP Client](./ftpclient)       |           | :green_apple: | :window:    |
 | :white_check_mark: | [FTP Server](./ftpserver)       |           | :green_apple: | :window:    |
 | :grey_question:    | [FTPS Client](./ftpsclient)     |           | :apple:       | :headstone: |
 | :grey_question:    | [FTPS Server](./ftpsserver)     |           | :apple:       | :headstone: |
