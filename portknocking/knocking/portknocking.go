@@ -1,4 +1,4 @@
-// knock.go
+// portknocking.go
 package portknocking
 
 import (

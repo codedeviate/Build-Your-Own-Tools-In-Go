@@ -90,6 +90,7 @@ subsystem/subsystem
 taskscheduler/taskscheduler
 telnetclient/telnetclient
 telnetserver/telnetserver
+textdiff/textdiff
 textprocessor/textprocessor
 traceroute/traceroute
 vpnclient/vpnclient

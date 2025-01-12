@@ -32,12 +32,13 @@ The status field have a check mark.
 
 ### Development Tools
 
-2 tools (2 working on Linux, 2 working on macOS, 1 working on Windows)
+3 tools (2 working on Linux, 3 working on macOS, 1 working on Windows)
 
-| Status             | Module               | Linux     | Mac           | Windows  |
-|--------------------|----------------------|-----------|---------------|----------|
-| :white_check_mark: | [go-make](./go-make) | :penguin: | :green_apple: | :window: |
-| :grey_question:    | [watcher](./watcher) | :penguin: | :green_apple: |          |
+| Status             | Module                 | Linux     | Mac           | Windows  |
+|--------------------|------------------------|-----------|---------------|----------|
+| :white_check_mark: | [go-make](./go-make)   | :penguin: | :green_apple: | :window: |
+| :grey_question:    | [watcher](./watcher)   | :penguin: | :green_apple: |          |
+| :grey_question:    | [textdiff](./textdiff) |           | :green_apple: |          |
 
 ### Basic Network Tools
 
