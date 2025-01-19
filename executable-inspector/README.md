@@ -28,7 +28,7 @@ To build all of the projects executables, run the following command:
 make build-all
 ```
 
-This will build the executables for the following platforms:
+This will build the executables for the following platforms, each with a unique name:
 - Windows on Amd64
 - Windows on 386
 - Windoww on Arm
@@ -43,6 +43,7 @@ This will build the executables for the following platforms:
 - FreeBSD on 386
 - FreeBSD on Arm
 - FreeBSD on Arm64
+This is mainly for testing purposes.
 
 ## Run
 
