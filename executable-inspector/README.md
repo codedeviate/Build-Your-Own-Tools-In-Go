@@ -29,22 +29,32 @@ make build-all
 ```
 
 This will build the executables for the following platforms, each with a unique name:
-- Windows on Amd64
-- Windows on 386
-- Windoww on Arm
-- Windows on Arm64
-- Linux on Amd64
-- Linux on 386
-- Linux on Arm
-- Linux on Arm64
-- Darwin on Amd64
-- Darwin on Arm64
-- FreeBSD on Amd64
-- FreeBSD on 386
-- FreeBSD on Arm
-- FreeBSD on Arm64
+- Windows on Amd64 (64-bits)
+- Windows on 386 (32-bits)
+- Windoww on Arm (32-bits)
+- Windows on Arm64 (64-bits)
+- Linux on Amd64 (64-bits)
+- Linux on 386 (32-bits)
+- Linux on Arm (32-bits)
+- Linux on Arm64 (64-bits)
+- Darwin on Amd64 (64-bits)
+- Darwin on Arm64 (64-bits)
+- FreeBSD on Amd64 (64-bits)
+- FreeBSD on 386 (32-bits)
+- FreeBSD on Arm (32-bits)
+- FreeBSD on Arm64 (64-bits)
 
 This is mainly for testing purposes.
+
+Please note that some platforms may not be supported by your Go compiler.
+
+If the make command fails, you might need to verify that the platform is supported by your Go compiler. This can be done by running the following command:
+
+```bash
+go tool dist list
+```
+
+that will list all supported platforms.
 
 ## Run
 
