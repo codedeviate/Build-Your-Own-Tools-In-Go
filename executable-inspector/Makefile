@@ -123,3 +123,5 @@ clean:
 	$(RM) $(BINARY_NAME)_freebsd_arm64
 	$(RM) go.mod
 	$(RM) go.sum
+
+complete: clean setup build-all run
