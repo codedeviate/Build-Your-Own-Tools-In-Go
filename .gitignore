@@ -53,6 +53,7 @@ dnsclient/dnsclient
 dnslookup/dnslookup
 dnsserver/dnsserver
 encodedecode/encodedecode
+executable-inspector/executable-inspector*
 filecompressor/filecompressor
 firewall/firewall
 ftpclient/ftpclient
