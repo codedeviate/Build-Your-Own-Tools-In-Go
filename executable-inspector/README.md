@@ -43,6 +43,7 @@ This will build the executables for the following platforms, each with a unique 
 - FreeBSD on 386
 - FreeBSD on Arm
 - FreeBSD on Arm64
+
 This is mainly for testing purposes.
 
 ## Run
