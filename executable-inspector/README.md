@@ -1,4 +1,4 @@
-# Executable inspector
+# Executable Inspector
 
 This is a simple executable inspector tool that displays information about an executable file.
 
@@ -6,7 +6,7 @@ This is a simple executable inspector tool that displays information about an ex
 
 ## Installation
 
-Setup the project and install the required dependencies, run the following command:
+To set up the project and install the required dependencies, run the following command:
 
 ```bash
 make setup
@@ -20,51 +20,51 @@ To build the project, run the following command:
 make build
 ```
 
-## Build all
+## Build All
 
-To build all of the projects executables, run the following command:
+To build all of the project executables, run the following command:
 
 ```bash
 make build-all
 ```
 
-This will build the executables for the following platforms, each with a unique name:
-- Windows on Amd64 (64-bits)
-- Windows on 386 (32-bits)
-- Windoww on Arm (32-bits)
-- Windows on Arm64 (64-bits)
-- Linux on Amd64 (64-bits)
-- Linux on 386 (32-bits)
-- Linux on Arm (32-bits)
-- Linux on Arm64 (64-bits)
-- Darwin on Amd64 (64-bits)
-- Darwin on Arm64 (64-bits)
-- FreeBSD on Amd64 (64-bits)
-- FreeBSD on 386 (32-bits)
-- FreeBSD on Arm (32-bits)
-- FreeBSD on Arm64 (64-bits)
+This will build executables for the following platforms, each with a unique name:
+- Windows on AMD64 (64-bit)
+- Windows on 386 (32-bit)
+- Windows on ARM (32-bit)
+- Windows on ARM64 (64-bit)
+- Linux on AMD64 (64-bit)
+- Linux on 386 (32-bit)
+- Linux on ARM (32-bit)
+- Linux on ARM64 (64-bit)
+- Darwin on AMD64 (64-bit)
+- Darwin on ARM64 (64-bit)
+- FreeBSD on AMD64 (64-bit)
+- FreeBSD on 386 (32-bit)
+- FreeBSD on ARM (32-bit)
+- FreeBSD on ARM64 (64-bit)
 
 This is mainly for testing purposes.
 
 Please note that some platforms may not be supported by your Go compiler.
 
-If the make command fails, you might need to verify that the platform is supported by your Go compiler. This can be done by running the following command:
+If the `make` command fails, verify that the platform is supported by your Go compiler. You can do this by running the following command:
 
 ```bash
 go tool dist list
 ```
 
-that will list all supported platforms.
+This command will list all supported platforms.
 
 ## Run
 
-To run the project, run the following command:
+To run the project, use the following command:
 
 ```bash
 make run
 ```
 
-This will run the executable on the current platform inspecting all generated executables.
+This will run the executable on the current platform, inspecting all generated executables.
 
 ## Clean
 
@@ -74,7 +74,7 @@ To clean the project, run the following command:
 make clean
 ```
 
-Run `make setup` again before building the project.
+You will need to run `make setup` again before building the project.
 
 ## Complete
 
@@ -84,4 +84,4 @@ For testing purposes, you can run the following command:
 make complete
 ```
 
-It will run clean, setup, build and finally run the project with some basic test parameters.
+This command will clean the project, set it up, build it, and then run it with some basic test parameters.
