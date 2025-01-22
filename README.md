@@ -35,28 +35,28 @@ The status field have a check mark.
 
 4 tools (3 working on Linux, 4 working on macOS, 1 working on Windows)
 
-| Status             | Module                                         | Linux     | Mac           | Windows  |
-|--------------------|------------------------------------------------|-----------|---------------|----------|
-| :white_check_mark: | [go-make](./go-make)                           | :penguin: | :green_apple: | :window: |
-| :grey_question:    | [watcher](./watcher)                           | :penguin: | :green_apple: |          |
-| :grey_question:    | [textdiff](./textdiff)                         |           | :green_apple: |          |
-| :grey_question:    | [executable-inspector](./executable-inspector) | :penguin: | :green_apple: |          |
+| Status             | Module                                         | Linux           | Mac           | Windows         |
+|--------------------|------------------------------------------------|-----------------|---------------|-----------------|
+| :white_check_mark: | [go-make](./go-make)                           | :penguin:       | :green_apple: | :window:        |
+| :heavy_check_mark: | [watcher](./watcher)                           | :penguin:       | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [textdiff](./textdiff)                         | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [executable-inspector](./executable-inspector) | :penguin:       | :green_apple: | :grey_question: |
 
 ### Basic Network Tools
 
 9 tools (7 working on Linux, 9 working on macOS, 4 working on Windows)
 
-| Status             | Module                      | Linux     | Mac           | Windows     |
-|--------------------|-----------------------------|-----------|---------------|-------------|
-| :white_check_mark: | [Ping](./ping)              | :penguin: | :green_apple: | :window:    |
-| :white_check_mark: | [Whois](./whois)            | :penguin: | :green_apple: | :window:    |
-| :white_check_mark: | [Dig/nslookup](./dnslookup) | :penguin: | :green_apple: | :window:    |
-| :grey_question:    | [Traceroute](./traceroute)  | :chicken: | :green_apple: |             |
-| :grey_question:    | [Netstat](./netstat)        | :penguin: | :green_apple: | :headstone: |
-| :white_check_mark: | [Netscan](./netscan)        | :penguin: | :green_apple: | :window:    |
-| :grey_question:    | [Subsystem](./subsystem)    | :penguin: | :green_apple: |             |
-| :grey_question:    | [Ifinfo](./ifinfo)          | :penguin: | :green_apple: |             |
-| :grey_question:    | [Certinfo](./certinfo)      |           | :green_apple: |             |
+| Status             | Module                      | Linux           | Mac           | Windows         |
+|--------------------|-----------------------------|-----------------|---------------|-----------------|
+| :white_check_mark: | [Ping](./ping)              | :penguin:       | :green_apple: | :window:        |
+| :white_check_mark: | [Whois](./whois)            | :penguin:       | :green_apple: | :window:        |
+| :white_check_mark: | [Dig/nslookup](./dnslookup) | :penguin:       | :green_apple: | :window:        |
+| :heavy_check_mark: | [Traceroute](./traceroute)  | :chicken:       | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [Netstat](./netstat)        | :penguin:       | :green_apple: | :headstone:     |
+| :white_check_mark: | [Netscan](./netscan)        | :penguin:       | :green_apple: | :window:        |
+| :heavy_check_mark: | [Subsystem](./subsystem)    | :penguin:       | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [Ifinfo](./ifinfo)          | :penguin:       | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [Certinfo](./certinfo)      | :grey_question: | :green_apple: | :grey_question: |
 
 ### Advanced Network Tools
 
@@ -67,10 +67,10 @@ The status field have a check mark.
 | :white_check_mark: | [Port Scanner](./portscanner)           | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [IP Geolocation](./ipgeolocation)       | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [Port Knocking](./portknocking)         | :penguin: | :green_apple: | :window:    |
-| :grey_question:    | [Packet Sniffer](./packetsniffer)       | :penguin: | :green_apple: | :headstone: |
+| :heavy_check_mark: | [Packet Sniffer](./packetsniffer)       | :penguin: | :green_apple: | :headstone: |
 | :white_check_mark: | [Proxy Server](./proxyserver)           | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [Port Forwarding](./portforwarding)     | :penguin: | :green_apple: | :window:    |
-| :grey_question:    | [Bandwidth Monitor](./bandwidthmonitor) | :chicken: | :green_apple: | :headstone: |
+| :heavy_check_mark: | [Bandwidth Monitor](./bandwidthmonitor) | :chicken: | :green_apple: | :headstone: |
 | :white_check_mark: | [Web Crawler](./webcrawler)             | :penguin: | :green_apple: | :window:    |
 | :white_check_mark: | [Web Scraper](./webscraper)             | :penguin: | :green_apple: | :window:    |
 
@@ -78,54 +78,54 @@ The status field have a check mark.
 
 19 tools (9 working on Linux, 11 working on macOS, 10 working on Windows)
 
-| Status             | Module                          | Linux     | Mac           | Windows     |
-|--------------------|---------------------------------|-----------|---------------|-------------|
-| :white_check_mark: | [HTTP Client](./httpclient)     | :penguin: | :green_apple: | :window:    |
-| :white_check_mark: | [HTTP Server](./httpserver)     | :penguin: | :green_apple: | :window:    |
-| :white_check_mark: | [HTTPS Client](./httpsclient)   | :penguin: | :green_apple: | :window:    |
-| :white_check_mark: | [HTTPS Server](./httpsserver)   | :penguin: | :green_apple: | :window:    |
-| :white_check_mark: | [FTP Client](./ftpclient)       |           | :green_apple: | :window:    |
-| :white_check_mark: | [FTP Server](./ftpserver)       |           | :green_apple: | :window:    |
-| :grey_question:    | [FTPS Client](./ftpsclient)     |           | :apple:       | :headstone: |
-| :grey_question:    | [FTPS Server](./ftpsserver)     |           | :apple:       | :headstone: |
-| :white_check_mark: | [SMTP Client](./smtpclient)     | :penguin: | :green_apple: | :window:    |
-| :white_check_mark: | [SMTP Server](./smtpserver)     | :penguin: | :green_apple: | :window:    |
-| :white_check_mark: | [Telnet Client](./telnetclient) | :penguin: | :green_apple: | :window:    |
-| :white_check_mark: | [Telnet Server](./telnetserver) | :penguin: | :green_apple: | :window:    |
-| :heavy_minus_sign: | [SSH Client](./sshclient)       |           | :apple:       |             |
-| :heavy_minus_sign: | [SSH Server](./sshserver)       |           | :apple:       |             |
-| :white_check_mark: | [DNS Client](./dnsclient)       | :penguin: | :green_apple: |             |
-| :heavy_minus_sign: | [DNS Server](./dnsserver)       |           | :apple:       | :headstone: |
-| :heavy_minus_sign: | [DHCP Client](./dhcpclient)     |           | :apple:       | :headstone: |
-| :heavy_minus_sign: | [DHCP Server](./dhcpserver)     |           | :apple:       | :headstone: |
-| :heavy_minus_sign: | [VPN Client](./vpnclient)       |           |               |             |
-| :heavy_minus_sign: | [VPN Server](./vpnserver)       |           |               |             |
+| Status             | Module                          | Linux           | Mac             | Windows         |
+|--------------------|---------------------------------|-----------------|-----------------|-----------------|
+| :white_check_mark: | [HTTP Client](./httpclient)     | :penguin:       | :green_apple:   | :window:        |
+| :white_check_mark: | [HTTP Server](./httpserver)     | :penguin:       | :green_apple:   | :window:        |
+| :white_check_mark: | [HTTPS Client](./httpsclient)   | :penguin:       | :green_apple:   | :window:        |
+| :white_check_mark: | [HTTPS Server](./httpsserver)   | :penguin:       | :green_apple:   | :window:        |
+| :white_check_mark: | [FTP Client](./ftpclient)       | :grey_question: | :green_apple:   | :window:        |
+| :white_check_mark: | [FTP Server](./ftpserver)       | :grey_question: | :green_apple:   | :window:        |
+| :heavy_check_mark: | [FTPS Client](./ftpsclient)     | :grey_question: | :apple:         | :headstone:     |
+| :heavy_check_mark: | [FTPS Server](./ftpsserver)     | :grey_question: | :apple:         | :headstone:     |
+| :white_check_mark: | [SMTP Client](./smtpclient)     | :penguin:       | :green_apple:   | :window:        |
+| :white_check_mark: | [SMTP Server](./smtpserver)     | :penguin:       | :green_apple:   | :window:        |
+| :white_check_mark: | [Telnet Client](./telnetclient) | :penguin:       | :green_apple:   | :window:        |
+| :white_check_mark: | [Telnet Server](./telnetserver) | :penguin:       | :green_apple:   | :window:        |
+| :heavy_minus_sign: | [SSH Client](./sshclient)       | :grey_question: | :apple:         | :grey_question: |
+| :heavy_minus_sign: | [SSH Server](./sshserver)       | :grey_question: | :apple:         | :grey_question: |
+| :white_check_mark: | [DNS Client](./dnsclient)       | :penguin:       | :green_apple:   | :grey_question: |
+| :heavy_minus_sign: | [DNS Server](./dnsserver)       | :grey_question: | :apple:         | :headstone:     |
+| :heavy_minus_sign: | [DHCP Client](./dhcpclient)     | :grey_question: | :apple:         | :headstone:     |
+| :heavy_minus_sign: | [DHCP Server](./dhcpserver)     | :grey_question: | :apple:         | :headstone:     |
+| :heavy_minus_sign: | [VPN Client](./vpnclient)       | :grey_question: | :grey_question: | :grey_question: |
+| :heavy_minus_sign: | [VPN Server](./vpnserver)       | :grey_question: | :grey_question: | :grey_question: |
 
 ### Security Tools
 
 3 tools (0 working on Linux, 2 working on macOS, 0 working on Windows)
 
-| Status             | Module                          | Linux  | Mac           | Windows  |
-|--------------------|---------------------------------|--------|---------------|----------|
-| :heavy_minus_sign: | [Firewall](./firewall)          |        |               |          |
-| :grey_question:    | [Load Balancer](./loadbalancer) |        | :green_apple: |          |
-| :grey_question:    | [Reverse Proxy](./reverseproxy) |        | :green_apple: |          |
+| Status             | Module                          | Linux           | Mac             | Windows         |
+|--------------------|---------------------------------|-----------------|-----------------|-----------------|
+| :heavy_minus_sign: | [Firewall](./firewall)          | :grey_question: | :grey_question: | :grey_question: |
+| :heavy_check_mark: | [Load Balancer](./loadbalancer) | :grey_question: | :green_apple:   | :grey_question: |
+| :heavy_check_mark: | [Reverse Proxy](./reverseproxy) | :grey_question: | :green_apple:   | :grey_question: |
 
 ### Miscellaneous Tools
 
 12 tools (0 working on Linux, 12 working on macOS, 2 working on Windows)
 
-| Status             | Module                              | Linux  | Mac           | Windows     |
-|--------------------|-------------------------------------|--------|---------------|-------------|
-| :grey_question:    | [jq](./jq)                          |        | :green_apple: | :window:    |
-| :heavy_minus_sign: | [Log analyzer](./loganalyzer)       |        | :green_apple: |             |
-| :heavy_minus_sign: | [File Compressor](./filecompressor) |        | :green_apple: |             |
-| :heavy_minus_sign: | [Task Scheduler](./taskscheduler)   |        | :green_apple: |             |
-| :heavy_minus_sign: | [Text Processor](./textprocessor)   |        | :green_apple: |             |
-| :grey_question:    | [Encode/Decode](./encodedecode)     |        | :green_apple: | :headstone: |
-| :grey_question:    | [Hash](./hash)                      |        | :green_apple: | :window:    |
-| :grey_question:    | [Strings](./strings)                |        | :green_apple: |             |
-| :grey_question:    | [Decompression](./decompression)    |        | :green_apple: |             |
-| :grey_question:    | [Compression](./compression)        |        | :green_apple: |             |
-| :grey_question:    | [Hexdump](./hexdump)                |        | :green_apple: |             |
-| :grey_question:    | [git-tool](./git-tool)              |        | :green_apple: |             |
+| Status             | Module                              | Linux           | Mac           | Windows         |
+|--------------------|-------------------------------------|-----------------|---------------|-----------------|
+| :heavy_check_mark: | [jq](./jq)                          | :grey_question: | :green_apple: | :window:        |
+| :heavy_minus_sign: | [Log analyzer](./loganalyzer)       | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_minus_sign: | [File Compressor](./filecompressor) | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_minus_sign: | [Task Scheduler](./taskscheduler)   | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_minus_sign: | [Text Processor](./textprocessor)   | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [Encode/Decode](./encodedecode)     | :grey_question: | :green_apple: | :headstone:     |
+| :heavy_check_mark: | [Hash](./hash)                      | :grey_question: | :green_apple: | :window:        |
+| :heavy_check_mark: | [Strings](./strings)                | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [Decompression](./decompression)    | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [Compression](./compression)        | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [Hexdump](./hexdump)                | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [git-tool](./git-tool)              | :grey_question: | :green_apple: | :grey_question: |
