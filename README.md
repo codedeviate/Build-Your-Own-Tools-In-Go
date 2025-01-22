@@ -8,19 +8,20 @@ The current status of each tool will show at the end of the tool name in the lis
 
 **Current status**
 
-| Status icon   | Description                     |
-| ------------- | ------------------------------- |
-| :green_apple: | Working on macOS                |
-| :apple:       | Problems on macOS               |
-| :penguin:     | Working on Linux                |
-| :chicken:     | Problems on Linux               |
-| :window:      | Working on Windows              |
-| :headstone:   | Problems on Windows             |
-| :link:        | Code is in sync with the course |
+| Status icon     | Description                             |
+| --------------- | --------------------------------------- |
+| :green_apple:   | Working on macOS                        |
+| :apple:         | Problems on macOS                       |
+| :penguin:       | Working on Linux                        |
+| :chicken:       | Problems on Linux                       |
+| :window:        | Working on Windows                      |
+| :headstone:     | Problems on Windows                     |
+| :link:          | Code is in sync with the course         |
+| :grey_question: | Code is not yet tested on this platform |
 
 The status field have a check mark.
 - :white_check_mark: Code is working on all platforms
-- :grey_question: Code is working on at least one platform
+- :heavy_check_mark: Code is working on at least one platform
 - :x: Code doesn't work on any platform
 - :heavy_minus_sign: Code isn't ready yet or hasn't not been started
 
