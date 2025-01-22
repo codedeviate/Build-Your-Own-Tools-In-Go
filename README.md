@@ -118,10 +118,10 @@ The status field have a check mark.
 | Status             | Module                              | Linux           | Mac           | Windows         |
 |--------------------|-------------------------------------|-----------------|---------------|-----------------|
 | :heavy_check_mark: | [jq](./jq)                          | :grey_question: | :green_apple: | :window:        |
-| :heavy_minus_sign: | [Log analyzer](./loganalyzer)       | :grey_question: | :green_apple: | :grey_question: |
-| :heavy_minus_sign: | [File Compressor](./filecompressor) | :grey_question: | :green_apple: | :grey_question: |
-| :heavy_minus_sign: | [Task Scheduler](./taskscheduler)   | :grey_question: | :green_apple: | :grey_question: |
-| :heavy_minus_sign: | [Text Processor](./textprocessor)   | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [Log analyzer](./loganalyzer)       | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [File Compressor](./filecompressor) | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [Task Scheduler](./taskscheduler)   | :grey_question: | :green_apple: | :grey_question: |
+| :heavy_check_mark: | [Text Processor](./textprocessor)   | :grey_question: | :green_apple: | :grey_question: |
 | :heavy_check_mark: | [Encode/Decode](./encodedecode)     | :grey_question: | :green_apple: | :headstone:     |
 | :heavy_check_mark: | [Hash](./hash)                      | :grey_question: | :green_apple: | :window:        |
 | :heavy_check_mark: | [Strings](./strings)                | :grey_question: | :green_apple: | :grey_question: |
