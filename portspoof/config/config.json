@@ -1,0 +1,28 @@
+{
+  "services": [
+    {
+      "port": 2222,
+      "service": "ssh",
+      "banner": "SSH-2.0-OpenSSH_7.9 (Fake)"
+    },
+    {
+      "port": 8080,
+      "service": "http",
+      "banner": "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<html><body><h1>Fake HTTP Service</h1></body></html>"
+    },
+    {
+      "port": 3306,
+      "service": "mysql",
+      "banner": "5.7.0-MySQL Community Server (Fake)"
+    },
+    {
+      "port": 9001,
+      "service": "generic",
+      "banner": "Welcome to fake service on port 9001"
+    }
+  ],
+  "tlsCertFile": "cert.pem",
+  "tlsKeyFile": "key.pem",
+  "dashboardPort": 9000,
+  "suspiciousThreshold": 5
+}

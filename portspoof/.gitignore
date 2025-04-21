@@ -1,0 +1,5 @@
+*.log
+cert.pem
+cert.key
+portspoof
+workflow.md
